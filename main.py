@@ -8,7 +8,12 @@ import mss
 import csv
 from pynput import mouse
 
-study_start_ts = time.time()
+
+def time_since_start():
+    return (time.time() - time_since_start.start_time)*1000
+
+
+time_since_start.start_time = time.time()
 
 
 def on_move(x, y):
@@ -20,36 +25,37 @@ def on_click(x, y, button, pressed, queue_csv):
     print('{0} at {1}'.format(
         'Pressed' if pressed else 'Released',
         (x, y)))
-    queue_csv.put([str(round((time.time() - study_start_ts)*1000)), str(x), str(y), button, 'Pressed' if pressed else 'Released'])
+    queue_csv.put([str(time_since_start()), str(x), str(y), button, 'Pressed' if pressed else 'Released'])
 
 
 def on_scroll(x, y, dx, dy, queue_csv):
-    dy = dy*120
     print('Scrolled {0} at {1}'.format(
         'down' if dy < 0 else 'up',
         (x, y)))
-    queue_csv.put([str(time.time()), str(x), str(y), str(dy), 'WM_MOUSEWHEEL'])
+    queue_csv.put([str(time_since_start()), str(x), str(y), dy, 'WM_MOUSEWHEEL'])
 
 
 def grab(queue: mp.Queue, fps, queue_csv: mp.Queue):
     monitor = {"top": 0, "left": 0, "width": 1920, "height": 1080}
     number_frames = 0
-    start_time = time.time()
+    start_time = time_since_start()
     former_ticks = 0
     with mss.mss() as sct:
         while "Screen capturing":
+            print(start_time)
+            print(time_since_start())
 
-            time_elapsed = time.time() - start_time
+            time_elapsed = time_since_start() - start_time
 
-            ticks = math.floor(time_elapsed / (1 / fps)) - former_ticks
+            ticks = math.floor(time_elapsed / ((1/fps)*1000)) - former_ticks
             if ticks >= 1:
                 if ticks > 1:
                     print("Frame skipped")
                     for i in range(ticks-1):
-                        queue_csv.put([str(time.time()), "Frame skipped", ""])
+                        queue_csv.put([str(time_since_start()), "Frame skipped", ""])
                 former_ticks += ticks
                 if number_frames == 0:
-                    print("start_process:" + str(time.time()))
+                    print("start_process:" + str(time_since_start()))
                 img = numpy.array(sct.grab(monitor))
                 img = cv2.cvtColor(img, cv2.COLOR_BGRA2BGR)
 
@@ -93,11 +99,11 @@ if __name__ == '__main__':
     recording = mp.Process(target=record, args=(queue, fps, queue_csv))
     grabbing.start()
     recording.start()
-    start = time.time()
+    start = time_since_start()
     print("start:" + str(start))
-    browser = subprocess.Popen([r"C:\Program Files\Mozilla Firefox\firefox.exe", r"www.perdu.com"], start_new_session=True)
+    # browser = subprocess.Popen([r"C:\Program Files\Google\Chrome\Application\chrome.exe", r"www.perdu.com"], start_new_session=True)
     cv2.waitKey(5000)
-    end = time.time()
+    end = time_since_start()
     subprocess.Popen([r"taskkill", r"/IM", r"firefox.exe"], shell=True)
     print("end:" + str(end - start))
     queue.put(None)
