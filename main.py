@@ -32,7 +32,7 @@ def on_scroll(x, y, dx, dy, queue_csv):
     print('Scrolled {0} at {1}'.format(
         'down' if dy < 0 else 'up',
         (x, y)))
-    queue_csv.put([str(time_since_start()), str(x), str(y), dy, 'WM_MOUSEWHEEL'])
+    queue_csv.put([str(time_since_start()), str(x), str(y), '-120' if dy < 0 else '120', 'WM_MOUSEWHEEL'])
 
 
 def grab(queue: mp.Queue, fps, queue_csv: mp.Queue):
@@ -42,8 +42,6 @@ def grab(queue: mp.Queue, fps, queue_csv: mp.Queue):
     former_ticks = 0
     with mss.mss() as sct:
         while "Screen capturing":
-            print(start_time)
-            print(time_since_start())
 
             time_elapsed = time_since_start() - start_time
 
@@ -56,6 +54,7 @@ def grab(queue: mp.Queue, fps, queue_csv: mp.Queue):
                 former_ticks += ticks
                 if number_frames == 0:
                     print("start_process:" + str(time_since_start()))
+                    queue_csv.put([str(time_since_start()), "StartMedia"])
                 img = numpy.array(sct.grab(monitor))
                 img = cv2.cvtColor(img, cv2.COLOR_BGRA2BGR)
 
