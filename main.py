@@ -7,6 +7,8 @@ import numpy
 import mss
 import csv
 import pylink
+import sys
+import os
 from pynput import mouse
 from pynput import keyboard
 
@@ -22,8 +24,8 @@ def on_release(key, queue_csv):
     time_keyboard = time_since_start()
     print('{0} released'.format(key))
     queue_csv.put([time_keyboard, "Keyboard",
-                   f"Key:{key} (Released)", "", ""])
-    if key == keyboard.Key.esc:
+                   f"Key: {key} (Released)", "", ""])
+    if str(key) == "'w'" or str(key) == "'W'":
         # Stop listener
         return False
 
@@ -74,7 +76,8 @@ def grab(queue: mp.Queue, fps, queue_csv: mp.Queue, start_time, queue_terminatio
 def record(queue: mp.Queue, fps, queue_csv: mp.Queue, monitor_width, monitor_height):
 
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-    vid = cv2.VideoWriter('output.mp4', fourcc, fps, (monitor_width//2, monitor_height//2))
+    vid = cv2.VideoWriter('output.mp4', fourcc, fps, (monitor_width, monitor_height))
+    # vid = cv2.VideoWriter('output.mp4', fourcc, fps, (monitor_width//2, monitor_height//2))
     file = open("test.csv", "w", newline="")
     writer = csv.writer(file)
     writer.writerow(["Timestamp", "Source", "Data", "Gaze.X", "Gaze.Y"])
@@ -84,7 +87,7 @@ def record(queue: mp.Queue, fps, queue_csv: mp.Queue, monitor_width, monitor_hei
             if img_queue_element is None:
                 break
             img = img_queue_element[0]
-            img = cv2.resize(img, (monitor_width//2, monitor_height//2))
+            # img = cv2.resize(img, (monitor_width//2, monitor_height//2))
             for i in range(img_queue_element[1]):
                 vid.write(img)
         if not queue_csv.empty():
@@ -93,10 +96,29 @@ def record(queue: mp.Queue, fps, queue_csv: mp.Queue, monitor_width, monitor_hei
 
 
 if __name__ == '__main__':
+    if len(sys.argv) < 5:
+        print('ERROR: missing arguments')
+        sys.exit()
+    else:
+        no_eye_tracker_debug = int(sys.argv[1])
+        participant_name = sys.argv[2]
+        participant_stage = int(sys.argv[3])
+        file_name = f'P{participant_name}_S{participant_stage}.edf'
+        monitor_width = int(sys.argv[4])
+        monitor_height = int(sys.argv[5])
+        if not os.path.exists(participant_name):
+            os.makedirs(participant_name)
+        local_file_name = os.path.join(participant_name, file_name)
+
+    if participant_stage == 1:
+        website = r"https://larigaldie-n.github.io/eyeScrollR/test_no_fixed.html"
+    elif participant_stage == 2:
+        website = r"https://larigaldie-n.github.io/eyeScrollR/test.html"
+    else:
+        print('ERROR: invalid stage')
+        sys.exit()
+
     fps = 30.0
-    monitor_width = 1920
-    monitor_height = 1080
-    no_eye_tracker_debug = 1
     queue: mp.Queue = mp.Queue()
     queue_csv: mp.Queue = mp.Queue()
     queue_termination: mp.Queue = mp.Queue()
@@ -112,28 +134,44 @@ if __name__ == '__main__':
     recording.start()
     start = time_since_start()
     print(f"start: {start}")
+    browser = subprocess.Popen([r"C:\Program Files\Mozilla Firefox\firefox.exe",
+                                website],
+                               start_new_session=True)
     if no_eye_tracker_debug == 1:
         with keyboard.Listener(on_release=lambda key: on_release(key, queue_csv)) as keyboard_listener:
             keyboard_listener.join()
     else:
-        keyboard_listener = keyboard.Listener(on_release=lambda key: on_release(key, queue_csv))
-        keyboard_listener.start()
-        eye_tracker = pylink.EyeLink('100.1.1.1')
-        eye_tracker.openDataFile('data.edf')
-        eye_tracker.sendCommand("sample_rate 500")
-        pylink.openGraphics()
-        eye_tracker.doTrackerSetup()
-        eye_tracker.sendMessage(f'start_sync: {time_since_start()}')
-        eye_tracker.startRecording(1, 1, 1, 1)
-        pylink.msecDelay(5000)
-        eye_tracker.stopRecording()
-        eye_tracker.closeDataFile()
-        eye_tracker.receiveDataFile('data.edf', 'data.edf')
-        eye_tracker.close()
-        pylink.closeGraphics()
-    browser = subprocess.Popen([r"C:\Program Files\Mozilla Firefox\firefox.exe",
-                                r"https://larigaldie-n.github.io/eyeScrollR/test_no_fixed.html"],
-                               start_new_session=True)
+        with keyboard.Listener(on_release=lambda key: on_release(key, queue_csv)) as keyboard_listener:
+            try:
+                eye_tracker = pylink.EyeLink("100.1.1.1")
+            except RuntimeError as error:
+                print('ERROR:', error)
+                sys.exit()
+            pylink.openGraphics((0, 0), 32)
+
+            eye_tracker.openDataFile(file_name)
+            eye_tracker.setOfflineMode()
+            eye_tracker.sendCommand("sample_rate 1000")
+            eye_tracker.sendCommand(f'screen_pixel_coords 0 0 {monitor_width - 1} {monitor_height - 1}')
+            eye_tracker.sendMessage(f'DISPLAY_COORDS 0 0 {monitor_width - 1} {monitor_height - 1}')
+            pylink.setCalibrationColors((0, 0, 0), (128, 128, 128))
+            pylink.setTargetSize(int(monitor_width / 70.0), int(monitor_width / 300.0))
+            eye_tracker.doTrackerSetup()
+            eye_tracker.setOfflineMode()
+            pylink.closeGraphics()
+            eye_tracker.startRecording(1, 1, 0, 0)
+            eye_tracker.sendMessage(f'SYNCTIME')
+            queue_csv.put([time_since_start(), "Synchronizer", "DISPLAY_MESSAGE", "", ""])
+            keyboard_listener.join()
+            eye_tracker.sendMessage(f'SYNCTIME')
+            queue_csv.put([time_since_start(), "Synchronizer", "DISPLAY_MESSAGE", "", ""])
+            eye_tracker.stopRecording()
+            eye_tracker.setOfflineMode()
+            pylink.msecDelay(500)
+            eye_tracker.closeDataFile()
+            eye_tracker.receiveDataFile(file_name, local_file_name)
+            eye_tracker.stopRecording()
+            eye_tracker.close()
 
     subprocess.Popen([r"taskkill", r"/IM", r"firefox.exe"], shell=True)
     print(f"end: {time_since_start() - start}")
