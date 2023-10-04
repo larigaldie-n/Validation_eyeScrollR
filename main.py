@@ -25,7 +25,7 @@ def on_release(key, queue_csv):
     print('{0} released'.format(key))
     queue_csv.put([time_keyboard, "Keyboard",
                    f"Key: {key} (Released)", "", ""])
-    if str(key) == "'w'" or str(key) == "'W'":
+    if str(key) == "'s'" or str(key) == "'S'":
         # Stop listener
         return False
 
@@ -134,7 +134,7 @@ if __name__ == '__main__':
     recording.start()
     start = time_since_start()
     print(f"start: {start}")
-    browser = subprocess.Popen([r"C:\Program Files\Mozilla Firefox\firefox.exe",
+    browser = subprocess.Popen([r"C:\Program Files\Google\Chrome\Application\chrome.exe",
                                 website],
                                start_new_session=True)
     if no_eye_tracker_debug == 1:
@@ -163,21 +163,17 @@ if __name__ == '__main__':
             eye_tracker.sendMessage(f'SYNCTIME')
             queue_csv.put([time_since_start(), "Synchronizer", "DISPLAY_MESSAGE", "", ""])
             keyboard_listener.join()
-            eye_tracker.sendMessage(f'SYNCTIME')
-            queue_csv.put([time_since_start(), "Synchronizer", "DISPLAY_MESSAGE", "", ""])
             eye_tracker.stopRecording()
             eye_tracker.setOfflineMode()
-            pylink.msecDelay(500)
+            pylink.msecDelay(250)
             eye_tracker.closeDataFile()
             eye_tracker.receiveDataFile(file_name, local_file_name)
             eye_tracker.stopRecording()
             eye_tracker.close()
 
-    subprocess.Popen([r"taskkill", r"/IM", r"firefox.exe"], shell=True)
+    subprocess.Popen([r"taskkill", r"/IM", r"chrome.exe"], shell=True)
     print(f"end: {time_since_start() - start}")
     queue_termination.put(None)
     recording.join()
     mouse_listener.stop()
-    if no_eye_tracker_debug == 0:
-        keyboard_listener.stop()
     print("OVER")
