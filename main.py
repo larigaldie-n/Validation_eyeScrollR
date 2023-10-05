@@ -73,12 +73,12 @@ def grab(queue: mp.Queue, fps, queue_csv: mp.Queue, start_time, queue_terminatio
                 break
 
 
-def record(queue: mp.Queue, fps, queue_csv: mp.Queue, monitor_width, monitor_height):
+def record(queue: mp.Queue, fps, queue_csv: mp.Queue, monitor_width, monitor_height, file_name):
 
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-    vid = cv2.VideoWriter('output.mp4', fourcc, fps, (monitor_width, monitor_height))
+    vid = cv2.VideoWriter(f'{file_name}.mp4', fourcc, fps, (monitor_width, monitor_height))
     # vid = cv2.VideoWriter('output.mp4', fourcc, fps, (monitor_width//2, monitor_height//2))
-    file = open("test.csv", "w", newline="")
+    file = open(f'{file_name}.csv', "w", newline="")
     writer = csv.writer(file)
     writer.writerow(["Timestamp", "Source", "Data", "Gaze.X", "Gaze.Y"])
     while "Recording":
@@ -129,7 +129,8 @@ if __name__ == '__main__':
     mouse_listener.start()
     grabbing = mp.Process(target=grab, args=(queue, fps, queue_csv, time_since_start.start_time,
                                              queue_termination, monitor_width, monitor_height))
-    recording = mp.Process(target=record, args=(queue, fps, queue_csv, monitor_width, monitor_height))
+    recording = mp.Process(target=record, args=(queue, fps, queue_csv, monitor_width, monitor_height,
+                                                f'P{participant_name}_S{participant_stage}'))
     grabbing.start()
     recording.start()
     start = time_since_start()
