@@ -97,23 +97,23 @@ def record(queue: mp.Queue, fps, queue_csv: mp.Queue, monitor_width, monitor_hei
 
 if __name__ == '__main__':
 
-	no_eye_tracker_debug = int(input("Debug mode (0=no, 1=yes): "))
-	participant_name = input("Participant name: ")
-	participant_stage = int(input("Participant stage: "))
-	monitor_width = int(input("Resolution X: "))
-	monitor_height = int(input("Resolution Y: "))
-	file_name = f'S{participant_stage}_{monitor_width}_{monitor_height}.edf'
-	if not os.path.exists(participant_stage):
-		os.makedirs(participant_stage)
-	local_file_name = os.path.join(participant_stage, file_name)
+    no_eye_tracker_debug = int(input("Debug mode (0=no, 1=yes): "))
+    participant_stage = input("Participant stage: ")
+    monitor_width = int(input("Resolution X: "))
+    monitor_height = int(input("Resolution Y: "))
+    file_name = f'S{participant_stage}_{monitor_width}_{monitor_height}.edf'
+    if not os.path.exists(participant_stage):
+        os.makedirs(participant_stage)
+    local_file_name = os.path.join(participant_stage, file_name)
+	participant_stage = int(participant_stage)
 
     if participant_stage == 1:
         website = r"https://larigaldie-n.github.io/eyeScrollR/test_no_fixed.html"
     elif participant_stage == 2:
         website = r"https://larigaldie-n.github.io/eyeScrollR/test_page.html"
-	elif participant_stage == 3:
+    elif participant_stage == 3:
         website = r"https://psychopy.org/"
-	elif participant_stage == 4:
+    elif participant_stage == 4:
         website = r"https://osf.io/"
     else:
         print('ERROR: invalid stage')
