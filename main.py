@@ -105,7 +105,7 @@ if __name__ == '__main__':
     if not os.path.exists(participant_stage):
         os.makedirs(participant_stage)
     local_file_name = os.path.join(participant_stage, file_name)
-	participant_stage = int(participant_stage)
+    participant_stage = int(participant_stage)
 
     if participant_stage == 1:
         website = r"https://larigaldie-n.github.io/eyeScrollR/test_no_fixed.html"
