@@ -96,24 +96,25 @@ def record(queue: mp.Queue, fps, queue_csv: mp.Queue, monitor_width, monitor_hei
 
 
 if __name__ == '__main__':
-    if len(sys.argv) < 5:
-        print('ERROR: missing arguments')
-        sys.exit()
-    else:
-        no_eye_tracker_debug = int(sys.argv[1])
-        participant_name = sys.argv[2]
-        participant_stage = int(sys.argv[3])
-        file_name = f'P{participant_name}_S{participant_stage}.edf'
-        monitor_width = int(sys.argv[4])
-        monitor_height = int(sys.argv[5])
-        if not os.path.exists(participant_name):
-            os.makedirs(participant_name)
-        local_file_name = os.path.join(participant_name, file_name)
+
+	no_eye_tracker_debug = int(input("Debug mode (0=no, 1=yes): "))
+	participant_name = input("Participant name: ")
+	participant_stage = int(input("Participant stage: "))
+	monitor_width = int(input("Resolution X: "))
+	monitor_height = int(input("Resolution Y: "))
+	file_name = f'S{participant_stage}_{monitor_width}_{monitor_height}.edf'
+	if not os.path.exists(participant_stage):
+		os.makedirs(participant_stage)
+	local_file_name = os.path.join(participant_stage, file_name)
 
     if participant_stage == 1:
         website = r"https://larigaldie-n.github.io/eyeScrollR/test_no_fixed.html"
     elif participant_stage == 2:
-        website = r"https://larigaldie-n.github.io/eyeScrollR/test.html"
+        website = r"https://larigaldie-n.github.io/eyeScrollR/test_page.html"
+	elif participant_stage == 3:
+        website = r"https://psychopy.org/"
+	elif participant_stage == 4:
+        website = r"https://github.com/larigaldie-n/Validation_eyeScrollR/blob/master/main.py"
     else:
         print('ERROR: invalid stage')
         sys.exit()
@@ -130,7 +131,7 @@ if __name__ == '__main__':
     grabbing = mp.Process(target=grab, args=(queue, fps, queue_csv, time_since_start.start_time,
                                              queue_termination, monitor_width, monitor_height))
     recording = mp.Process(target=record, args=(queue, fps, queue_csv, monitor_width, monitor_height,
-                                                f'P{participant_name}_S{participant_stage}'))
+                                                f'S{participant_stage}_{monitor_width}_{monitor_height}'))
     grabbing.start()
     recording.start()
     start = time_since_start()
