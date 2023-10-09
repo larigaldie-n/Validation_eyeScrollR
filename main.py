@@ -114,7 +114,7 @@ if __name__ == '__main__':
 	elif participant_stage == 3:
         website = r"https://psychopy.org/"
 	elif participant_stage == 4:
-        website = r"https://github.com/larigaldie-n/Validation_eyeScrollR/blob/master/main.py"
+        website = r"https://osf.io/"
     else:
         print('ERROR: invalid stage')
         sys.exit()
