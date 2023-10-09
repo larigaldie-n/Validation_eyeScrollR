@@ -98,14 +98,14 @@ def record(queue: mp.Queue, fps, queue_csv: mp.Queue, monitor_width, monitor_hei
 if __name__ == '__main__':
 
     no_eye_tracker_debug = int(input("Debug mode (0=no, 1=yes): "))
-    participant_stage = input("Participant stage: ")
+    participant_stage = int(input("Participant stage: "))
     monitor_width = int(input("Resolution X: "))
     monitor_height = int(input("Resolution Y: "))
-    file_name = f'S{participant_stage}_{monitor_width}_{monitor_height}.edf'
-    if not os.path.exists(participant_stage):
-        os.makedirs(participant_stage)
-    local_file_name = os.path.join(participant_stage, file_name)
-    participant_stage = int(participant_stage)
+    folder = f"S{participant_stage}_{monitor_width}_{monitor_height}"
+    file_name = f'S{participant_stage}.edf'
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+    local_file_name = os.path.join(folder, file_name)
 
     if participant_stage == 1:
         website = r"https://larigaldie-n.github.io/eyeScrollR/test_no_fixed.html"
@@ -156,10 +156,9 @@ if __name__ == '__main__':
             eye_tracker.sendCommand("sample_rate 1000")
             eye_tracker.sendCommand(f'screen_pixel_coords 0 0 {monitor_width - 1} {monitor_height - 1}')
             eye_tracker.sendMessage(f'DISPLAY_COORDS 0 0 {monitor_width - 1} {monitor_height - 1}')
-            pylink.setCalibrationColors((0, 0, 0), (128, 128, 128))
-            pylink.setTargetSize(int(monitor_width / 70.0), int(monitor_width / 300.0))
+            #pylink.setCalibrationColors((0, 0, 0), (128, 128, 128))
+            #pylink.setTargetSize(int(monitor_width / 70.0), int(monitor_width / 300.0))
             eye_tracker.doTrackerSetup()
-            eye_tracker.setOfflineMode()
             pylink.closeGraphics()
             eye_tracker.startRecording(1, 1, 0, 0)
             eye_tracker.sendMessage(f'SYNCTIME')
