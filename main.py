@@ -107,6 +107,8 @@ def frame_extraction():
                         video = cv2.VideoCapture(vid)
                         video.set(cv2.CAP_PROP_POS_FRAMES, int(row[3]))
                         ret, frame = video.read()
+                        frame = cv2.circle(frame, (int(round(float(row[0]))), int(round(float(row[1])))), radius=0,
+                                           color=(0, 0, 255), thickness=-1)
                         cv2.imwrite(os.path.join(f"Validation", f"Results", f"Blinded", "Images", f"{filename_no_ext}_{i+1}.png"), frame)
 
 
