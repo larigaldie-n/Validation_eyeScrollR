@@ -1,0 +1,113 @@
+# Raw Data out of TrialScope Wed Oct 18 13:55:41 CEST 2023
+MSG	849424 DISPLAY_COORDS 0 0 1679 1049
+
+MSG	861410 !CAL 
+>>>>>>> CALIBRATION (HV9,P-CR) FOR RIGHT: <<<<<<<<<
+
+MSG	861410 !CAL Calibration points:  
+
+MSG	861410 !CAL -27.7, -50.4         0,    424   
+
+MSG	861410 !CAL -28.8, -76.7         0,  -2583   
+
+MSG	861410 !CAL -25.5, -25.2         0,   3221   
+
+MSG	861410 !CAL -74.4, -48.8     -4046,    424   
+
+MSG	861410 !CAL  22.6, -49.2      4046,    424   
+
+MSG	861410 !CAL -78.7, -72.3     -4198,  -2583   
+
+MSG	861410 !CAL  23.3, -75.8      4198,  -2583   
+
+MSG	861410 !CAL -70.5, -25.6     -3905,   3221   
+
+MSG	861410 !CAL  20.8, -24.7      3905,   3221   
+
+MSG	861410 !CAL eye check box: (L,R,T,B)
+	  -89    33   -82   -20
+
+
+MSG	861410 !CAL href cal range: (L,R,T,B)
+	-6297  6297 -4034  4672
+
+
+MSG	861410 !CAL Cal coeff:(X=a+bx+cy+dxx+eyy,Y=f+gx+goaly+ixx+jyy)
+  -2.0892e-05  83.615 -5.5423 -0.06098 -0.078341 
+   423.86  0.75432  112.59 -0.066759 -0.057354
+
+
+MSG	861411 !CAL Prenormalize: offx, offy = -27.722 -50.376
+
+
+MSG	861411 !CAL Quadrant center: centx, centy = 
+  -2.092e-05  423.86
+
+
+MSG	861411 !CAL Corner correction:
+   1.1851e-05, -2.5176e-05 
+  -1.9251e-07, -2.0968e-06 
+   3.4484e-06, -1.9244e-05 
+   1.8523e-05,  6.8258e-06 
+
+
+MSG	861411 !CAL Gains: cx:88.172 lx:89.278 rx:78.662
+
+MSG	861411 !CAL Gains: cy:108.183 ty:112.536 by:107.198
+
+MSG	861411 !CAL Resolution (upd) at screen center: X=3.0, Y=2.4
+
+MSG	861411 !CAL Gain Change Proportion: X: 0.135 Y: 0.050
+
+MSG	861411 !CAL Gain Ratio (Gy/Gx) = 1.227
+
+MSG	861411 !CAL Cross-Gain Ratios: X=0.066, Y=0.007 
+
+MSG	861411 !CAL Quadrant fixup[0] = 0.027,0.056
+
+MSG	861411 !CAL Quadrant fixup[1] = 0.000,0.005
+
+MSG	861411 !CAL Quadrant fixup[2] = 0.007,0.039
+
+MSG	861411 !CAL Quadrant fixup[3] = 0.035,0.013
+
+MSG	861411 !CAL PCR gain ratio(x,y) = 2.218, 1.916
+
+MSG	861411 !CAL CR gain match(x,y) = 1.010, 1.010
+
+MSG	861411 !CAL Slip rotation correction OFF
+
+MSG	861414 !CAL CALIBRATION HV9 R RIGHT   GOOD 
+
+MSG	874077 !CAL VALIDATION HV9 R RIGHT GOOD ERROR 0.20 avg. 0.33 max  OFFSET 0.07 deg. -1.7,2.6 pix.
+
+MSG	874077 VALIDATE R 4POINT 0 RIGHT  at 840,524  OFFSET 0.17 deg.  5.4,5.1 pix.
+
+MSG	874077 VALIDATE R 4POINT 1 RIGHT  at 840,89  OFFSET 0.24 deg.  -10.5,-4.5 pix.
+
+MSG	874077 VALIDATE R 4POINT 2 RIGHT  at 840,960  OFFSET 0.32 deg.  -14.8,4.4 pix.
+
+MSG	874077 VALIDATE R 4POINT 3 RIGHT  at 101,524  OFFSET 0.14 deg.  -6.7,0.8 pix.
+
+MSG	874077 VALIDATE R 4POINT 4 RIGHT  at 1578,524  OFFSET 0.21 deg.  -4.1,7.7 pix.
+
+MSG	874077 VALIDATE R 4POINT 5 RIGHT  at 189,141  OFFSET 0.33 deg.  -4.8,-12.7 pix.
+
+MSG	874077 VALIDATE R 4POINT 6 RIGHT  at 1490,141  OFFSET 0.11 deg.  4.6,2.2 pix.
+
+MSG	874078 VALIDATE R 4POINT 7 RIGHT  at 189,908  OFFSET 0.29 deg.  -11.8,6.7 pix.
+
+MSG	874078 VALIDATE R 4POINT 8 RIGHT  at 1490,908  OFFSET 0.16 deg.  7.2,-2.9 pix.
+
+MSG	877118 RECCFG CR 1000 2 1 R
+
+MSG	877118 ELCLCFG MTABLER
+
+MSG	877118 GAZE_COORDS 0.00 0.00 1679.00 1049.00
+
+MSG	877118 THRESHOLDS R 114 236
+
+MSG	877118 ELCL_PROC CENTROID (3)
+
+MSG	877118 ELCL_PCR_PARAM 5 3.0
+

@@ -1,232 +1,2006 @@
 Timestamp,Source,Data
-7227.022647857666,Video recorder,Started recording (first frame)
-7227.022647857666,Video recorder,Frame 0
-7319.77391242981,Video recorder,Frame 1
-7319.77391242981,Video recorder,Frame 2 (skipped)
-7319.77391242981,Video recorder,Frame 3 (skipped)
-7418.973445892334,Video recorder,Frame 4
-7418.973445892334,Video recorder,Frame 5 (skipped)
-7418.973445892334,Video recorder,Frame 6 (skipped)
-7584.63716506958,Video recorder,Frame 7
-7584.63716506958,Video recorder,Frame 8 (skipped)
-7584.63716506958,Video recorder,Frame 9 (skipped)
-7584.63716506958,Video recorder,Frame 10 (skipped)
-7664.4933223724365,Video recorder,Frame 11
-7664.4933223724365,Video recorder,Frame 12 (skipped)
-7664.4933223724365,Video recorder,Frame 13 (skipped)
-7742.36536026001,Video recorder,Frame 14
-7742.36536026001,Video recorder,Frame 15 (skipped)
-7742.36536026001,Video recorder,Frame 16 (skipped)
-7819.741725921631,Video recorder,Frame 17
-7819.741725921631,Video recorder,Frame 18 (skipped)
-7898.110628128052,Video recorder,Frame 19
-7898.110628128052,Video recorder,Frame 20 (skipped)
-7980.940580368042,Video recorder,Frame 21
-7980.940580368042,Video recorder,Frame 22 (skipped)
-7980.940580368042,Video recorder,Frame 23 (skipped)
-8058.3178997039795,Video recorder,Frame 24
-8058.3178997039795,Video recorder,Frame 25 (skipped)
-8123.788595199585,Video recorder,Frame 26
-8123.788595199585,Video recorder,Frame 27 (skipped)
-8183.310747146606,Video recorder,Frame 28
-8183.310747146606,Video recorder,Frame 29 (skipped)
-8238.862991333008,Video recorder,Frame 30
-8238.862991333008,Video recorder,Frame 31 (skipped)
-8297.388792037964,Video recorder,Frame 32
-8297.388792037964,Video recorder,Frame 33 (skipped)
-8349.469661712646,Video recorder,Frame 34
-8396.58784866333,Video recorder,Frame 35
-8396.58784866333,Video recorder,Frame 36 (skipped)
-8448.173522949219,Video recorder,Frame 37
-8495.787858963013,Video recorder,Frame 38
-8495.787858963013,Video recorder,Frame 39 (skipped)
-8548.88892173767,Video recorder,Frame 40
-8596.007585525513,Video recorder,Frame 41
-8596.007585525513,Video recorder,Frame 42 (skipped)
-8636.68155670166,Video recorder,Frame 43
-8685.784578323364,Video recorder,Frame 44
-8734.39359664917,Video recorder,Frame 45
-8734.39359664917,Video recorder,Frame 46 (skipped)
-8787.436246871948,Video recorder,Frame 47
-8842.519998550415,Video recorder,Frame 48
-8842.519998550415,Video recorder,Frame 49 (skipped)
-8898.129940032959,Video recorder,Frame 50
-8898.129940032959,Video recorder,Frame 51 (skipped)
-8949.215412139893,Video recorder,Frame 52
-8997.27177619934,Video recorder,Frame 53
-8997.27177619934,Video recorder,Frame 54 (skipped)
-9048.85458946228,Video recorder,Frame 55
-9096.965789794922,Video recorder,Frame 56
-9096.965789794922,Video recorder,Frame 57 (skipped)
-9160.454273223877,Video recorder,Frame 58
-9219.973802566528,Video recorder,Frame 59
-9219.973802566528,Video recorder,Frame 60 (skipped)
-9287.429809570312,Video recorder,Frame 61
-9287.429809570312,Video recorder,Frame 62 (skipped)
-9359.349727630615,Video recorder,Frame 63
-9359.349727630615,Video recorder,Frame 64 (skipped)
-9426.8057346344,Video recorder,Frame 65
-9426.8057346344,Video recorder,Frame 66 (skipped)
-9483.846426010132,Video recorder,Frame 67
-9483.846426010132,Video recorder,Frame 68 (skipped)
-9533.848285675049,Video recorder,Frame 69
-9533.848285675049,Video recorder,Frame 70 (skipped)
-9583.94479751587,Video recorder,Frame 71
-9634.040355682373,Video recorder,Frame 72
-9634.040355682373,Video recorder,Frame 73 (skipped)
-9684.632062911987,Video recorder,Frame 74
-9733.735799789429,Video recorder,Frame 75
-9733.735799789429,Video recorder,Frame 76 (skipped)
-9784.82460975647,Video recorder,Frame 77
-9831.94375038147,Video recorder,Frame 78
-9831.94375038147,Video recorder,Frame 79 (skipped)
-9883.529424667358,Video recorder,Frame 80
-9931.143283843994,Video recorder,Frame 81
-9931.143283843994,Video recorder,Frame 82 (skipped)
-9984.215497970581,Video recorder,Frame 83
-10032.82380104065,Video recorder,Frame 84
-10032.82380104065,Video recorder,Frame 85 (skipped)
-10081.927299499512,Video recorder,Frame 86
-10131.031274795532,Video recorder,Frame 87
-10131.031274795532,Video recorder,Frame 88 (skipped)
-10184.104204177856,Video recorder,Frame 89
-10231.223106384277,Video recorder,Frame 90
-10231.223106384277,Video recorder,Frame 91 (skipped)
-10283.799171447754,Video recorder,Frame 92
-10331.415176391602,Video recorder,Frame 93
-10331.415176391602,Video recorder,Frame 94 (skipped)
-10384.486675262451,Video recorder,Frame 95
-10431.606769561768,Video recorder,Frame 96
-10431.606769561768,Video recorder,Frame 97 (skipped)
-10489.638566970825,Video recorder,Frame 98
-10549.190998077393,Video recorder,Frame 99
-10549.190998077393,Video recorder,Frame 100 (skipped)
-10604.713678359985,Video recorder,Frame 101
-10604.713678359985,Video recorder,Frame 102 (skipped)
-10657.286405563354,Video recorder,Frame 103
-10713.858842849731,Video recorder,Frame 104
-10713.858842849731,Video recorder,Frame 105 (skipped)
-10769.878387451172,Video recorder,Frame 106
-10769.878387451172,Video recorder,Frame 107 (skipped)
-10817.525386810303,Video recorder,Frame 108
-10866.305351257324,Video recorder,Frame 109
-10866.305351257324,Video recorder,Frame 110 (skipped)
-10918.385744094849,Video recorder,Frame 111
-10967.487096786499,Video recorder,Frame 112
-10967.487096786499,Video recorder,Frame 113 (skipped)
-11018.101692199707,Video recorder,Frame 114
-11066.242456436157,Video recorder,Frame 115
-11066.242456436157,Video recorder,Frame 116 (skipped)
-11117.79761314392,Video recorder,Frame 117
-11165.441989898682,Video recorder,Frame 118
-11165.441989898682,Video recorder,Frame 119 (skipped)
-11219.47717666626,Video recorder,Frame 120
-11271.060943603516,Video recorder,Frame 121
-11271.060943603516,Video recorder,Frame 122 (skipped)
-11323.14133644104,Video recorder,Frame 123
-11323.14133644104,Video recorder,Frame 124 (skipped)
-11388.117790222168,Video recorder,Frame 125
-11435.73260307312,Video recorder,Frame 126
-11435.73260307312,Video recorder,Frame 127 (skipped)
-11487.81442642212,Video recorder,Frame 128
-11536.916971206665,Video recorder,Frame 129
-11536.916971206665,Video recorder,Frame 130 (skipped)
-11587.53752708435,Video recorder,Frame 131
-11587.53752708435,Video recorder,Frame 132 (skipped)
-11647.058725357056,Video recorder,Frame 133
-11700.100660324097,Video recorder,Frame 134
-11700.100660324097,Video recorder,Frame 135 (skipped)
-11759.124994277954,Video recorder,Frame 136
-11841.461181640625,Synchronizer,SYNCTIME
-11864.277124404907,Video recorder,Frame 137
-11864.277124404907,Video recorder,Frame 138 (skipped)
-11864.277124404907,Video recorder,Frame 139 (skipped)
-11869.237661361694,Keyboard,Key: Key.esc (Released)
-11916.852235794067,Video recorder,Frame 140
-11916.852235794067,Video recorder,Frame 141 (skipped)
-11971.413850784302,Video recorder,Frame 142
-11971.413850784302,Video recorder,Frame 143 (skipped)
-12033.442497253418,Video recorder,Frame 144
-12033.442497253418,Video recorder,Frame 145 (skipped)
-12086.515188217163,Video recorder,Frame 146
-12135.886430740356,Video recorder,Frame 147
-12135.886430740356,Video recorder,Frame 148 (skipped)
-12185.952186584473,Video recorder,Frame 149
-12185.952186584473,Video recorder,Frame 150 (skipped)
-12236.543416976929,Video recorder,Frame 151
-12285.64715385437,Video recorder,Frame 152
-12285.64715385437,Video recorder,Frame 153 (skipped)
-12335.741758346558,Video recorder,Frame 154
-12384.847402572632,Video recorder,Frame 155
-12384.847402572632,Video recorder,Frame 156 (skipped)
-12435.935497283936,Video recorder,Frame 157
-12485.533475875854,Video recorder,Frame 158
-12485.533475875854,Video recorder,Frame 159 (skipped)
-12536.125183105469,Video recorder,Frame 160
-12585.22891998291,Video recorder,Frame 161
-12585.22891998291,Video recorder,Frame 162 (skipped)
-12633.8369846344,Video recorder,Frame 163
-12684.428930282593,Video recorder,Frame 164
-12736.012935638428,Video recorder,Frame 165
-12736.012935638428,Video recorder,Frame 166 (skipped)
-12787.213563919067,Video recorder,Frame 167
-12834.857940673828,Video recorder,Frame 168
-12834.857940673828,Video recorder,Frame 169 (skipped)
-12886.10053062439,Video recorder,Frame 170
-12933.231115341187,Video recorder,Frame 171
-12933.231115341187,Video recorder,Frame 172 (skipped)
-12985.310792922974,Video recorder,Frame 173
-13032.955646514893,Video recorder,Frame 174
-13037.391424179077,Keyboard,Key: 's' (Released)
-13032.955646514893,Video recorder,Frame 175 (skipped)
-13086.496114730835,Video recorder,Frame 176
-13135.131359100342,Video recorder,Frame 177
-13135.131359100342,Video recorder,Frame 178 (skipped)
-13190.21201133728,Video recorder,Frame 179
-13252.707958221436,Video recorder,Frame 180
-13252.707958221436,Video recorder,Frame 181 (skipped)
-13307.2669506073,Video recorder,Frame 182
-13307.2669506073,Video recorder,Frame 183 (skipped)
-13373.23546409607,Video recorder,Frame 184
-13373.23546409607,Video recorder,Frame 185 (skipped)
-13437.218427658081,Video recorder,Frame 186
-13437.218427658081,Video recorder,Frame 187 (skipped)
-13491.283178329468,Video recorder,Frame 188
-13491.283178329468,Video recorder,Frame 189 (skipped)
-13557.250499725342,Video recorder,Frame 190
-13614.290714263916,Video recorder,Frame 191
-13614.290714263916,Video recorder,Frame 192 (skipped)
-13669.842958450317,Video recorder,Frame 193
-13669.842958450317,Video recorder,Frame 194 (skipped)
-13722.419023513794,Video recorder,Frame 195
-13722.419023513794,Video recorder,Frame 196 (skipped)
-13772.514820098877,Video recorder,Frame 197
-13828.562259674072,Video recorder,Frame 198
-13828.562259674072,Video recorder,Frame 199 (skipped)
-13885.107278823853,Video recorder,Frame 200
-13933.218240737915,Video recorder,Frame 201
-13933.218240737915,Video recorder,Frame 202 (skipped)
-13986.290216445923,Video recorder,Frame 203
-14022.002935409546,Video recorder,Frame 204
-14022.002935409546,Video recorder,Frame 205 (skipped)
-14071.603536605835,Video recorder,Frame 206
-14120.705842971802,Video recorder,Frame 207
-14120.705842971802,Video recorder,Frame 208 (skipped)
-14170.305967330933,Video recorder,Frame 209
-14218.417644500732,Video recorder,Frame 210
-14218.417644500732,Video recorder,Frame 211 (skipped)
-14270.001649856567,Video recorder,Frame 212
-14317.994356155396,Video recorder,Frame 213
-14367.098569869995,Video recorder,Frame 214
-14367.098569869995,Video recorder,Frame 215 (skipped)
-14420.66740989685,Video recorder,Frame 216
-14457.370281219482,Video recorder,Frame 217
-14457.370281219482,Video recorder,Frame 218 (skipped)
-14518.874406814575,Video recorder,Frame 219
-14566.986322402954,Video recorder,Frame 220
-14566.986322402954,Video recorder,Frame 221 (skipped)
-14620.058298110962,Video recorder,Frame 222
-14669.658660888672,Video recorder,Frame 223
-14669.658660888672,Video recorder,Frame 224 (skipped)
-14727.19407081604,Video recorder,Frame 225
-14727.19407081604,Video recorder,Frame 226 (skipped)
+4685.347557067871,Video recorder,Started recording (first frame)
+4685.347557067871,Video recorder,Frame 0
+4766.690969467163,Video recorder,Frame 1
+4766.690969467163,Video recorder,Frame 2 (skipped)
+4837.124824523926,Video recorder,Frame 3
+4837.124824523926,Video recorder,Frame 4 (skipped)
+4837.124824523926,Video recorder,Frame 5 (skipped)
+4911.522150039673,Video recorder,Frame 6
+4911.522150039673,Video recorder,Frame 7 (skipped)
+4976.49884223938,Video recorder,Frame 8
+4976.49884223938,Video recorder,Frame 9 (skipped)
+5042.960643768311,Video recorder,Frame 10
+5042.960643768311,Video recorder,Frame 11 (skipped)
+5110.416650772095,Video recorder,Frame 12
+5110.416650772095,Video recorder,Frame 13 (skipped)
+5169.440031051636,Video recorder,Frame 14
+5169.440031051636,Video recorder,Frame 15 (skipped)
+5227.9675006866455,Video recorder,Frame 16
+5227.9675006866455,Video recorder,Frame 17 (skipped)
+5291.952133178711,Video recorder,Frame 18
+5358.910083770752,Video recorder,Frame 19
+5358.910083770752,Video recorder,Frame 20 (skipped)
+5426.366329193115,Video recorder,Frame 21
+5426.366329193115,Video recorder,Frame 22 (skipped)
+5475.002765655518,Video recorder,Frame 23
+5475.002765655518,Video recorder,Frame 24 (skipped)
+5523.085117340088,Video recorder,Frame 25
+5523.085117340088,Video recorder,Frame 26 (skipped)
+5573.213338851929,Video recorder,Frame 27
+5621.7896938323975,Video recorder,Frame 28
+5621.7896938323975,Video recorder,Frame 29 (skipped)
+5673.40612411499,Video recorder,Frame 30
+5721.034526824951,Video recorder,Frame 31
+5721.034526824951,Video recorder,Frame 32 (skipped)
+5771.655797958374,Video recorder,Frame 33
+5818.747520446777,Video recorder,Frame 34
+5818.747520446777,Video recorder,Frame 35 (skipped)
+5871.378660202026,Video recorder,Frame 36
+5918.002605438232,Video recorder,Frame 37
+5918.002605438232,Video recorder,Frame 38 (skipped)
+5957.682847976685,Video recorder,Frame 39
+6007.2832107543945,Video recorder,Frame 40
+6054.895639419556,Video recorder,Frame 41
+6054.895639419556,Video recorder,Frame 42 (skipped)
+6105.487108230591,Video recorder,Frame 43
+6152.110576629639,Video recorder,Frame 44
+6152.110576629639,Video recorder,Frame 45 (skipped)
+6205.678462982178,Video recorder,Frame 46
+6252.302169799805,Video recorder,Frame 47
+6252.302169799805,Video recorder,Frame 48 (skipped)
+6303.885936737061,Video recorder,Frame 49
+6352.49400138855,Video recorder,Frame 50
+6352.49400138855,Video recorder,Frame 51 (skipped)
+6404.5729637146,Video recorder,Frame 52
+6451.692819595337,Video recorder,Frame 53
+6451.692819595337,Video recorder,Frame 54 (skipped)
+6504.764556884766,Video recorder,Frame 55
+6552.379846572876,Video recorder,Frame 56
+6552.379846572876,Video recorder,Frame 57 (skipped)
+6640.667915344238,Video recorder,Frame 58
+6700.682878494263,Video recorder,Frame 59
+6700.682878494263,Video recorder,Frame 60 (skipped)
+6765.16318321228,Video recorder,Frame 61
+6765.16318321228,Video recorder,Frame 62 (skipped)
+6765.16318321228,Video recorder,Frame 63 (skipped)
+6826.6661167144775,Video recorder,Frame 64
+6826.6661167144775,Video recorder,Frame 65 (skipped)
+6898.089647293091,Video recorder,Frame 66
+6898.089647293091,Video recorder,Frame 67 (skipped)
+6959.593057632446,Video recorder,Frame 68
+7017.128705978394,Video recorder,Frame 69
+7017.128705978394,Video recorder,Frame 70 (skipped)
+7072.184324264526,Video recorder,Frame 71
+7072.184324264526,Video recorder,Frame 72 (skipped)
+7126.248359680176,Video recorder,Frame 73
+7126.248359680176,Video recorder,Frame 74 (skipped)
+7173.36893081665,Video recorder,Frame 75
+7224.9510288238525,Video recorder,Frame 76
+7224.9510288238525,Video recorder,Frame 77 (skipped)
+7273.558855056763,Video recorder,Frame 78
+7321.670293807983,Video recorder,Frame 79
+7321.670293807983,Video recorder,Frame 80 (skipped)
+7373.2545375823975,Video recorder,Frame 81
+7420.3736782073975,Video recorder,Frame 82
+7420.3736782073975,Video recorder,Frame 83 (skipped)
+7475.42929649353,Video recorder,Frame 84
+7525.028944015503,Video recorder,Frame 85
+7585.044384002686,Video recorder,Frame 86
+7585.044384002686,Video recorder,Frame 87 (skipped)
+7644.068956375122,Video recorder,Frame 88
+7644.068956375122,Video recorder,Frame 89 (skipped)
+7703.589200973511,Video recorder,Frame 90
+7703.589200973511,Video recorder,Frame 91 (skipped)
+7756.659269332886,Video recorder,Frame 92
+7756.659269332886,Video recorder,Frame 93 (skipped)
+7806.755542755127,Video recorder,Frame 94
+7854.370355606079,Video recorder,Frame 95
+7903.970003128052,Video recorder,Frame 96
+7903.970003128052,Video recorder,Frame 97 (skipped)
+7954.561948776245,Video recorder,Frame 98
+7954.561948776245,Video recorder,Frame 99 (skipped)
+8007.634162902832,Video recorder,Frame 100
+8053.761005401611,Video recorder,Frame 101
+8053.761005401611,Video recorder,Frame 102 (skipped)
+8106.832504272461,Video recorder,Frame 103
+8154.4482707977295,Video recorder,Frame 104
+8154.4482707977295,Video recorder,Frame 105 (skipped)
+8194.623947143555,Video recorder,Frame 106
+8253.647327423096,Video recorder,Frame 107
+8302.751779556274,Video recorder,Frame 108
+8302.751779556274,Video recorder,Frame 109 (skipped)
+8343.422889709473,Video recorder,Frame 110
+8392.527103424072,Video recorder,Frame 111
+8392.527103424072,Video recorder,Frame 112 (skipped)
+8441.631555557251,Video recorder,Frame 113
+8489.741802215576,Video recorder,Frame 114
+8489.741802215576,Video recorder,Frame 115 (skipped)
+8541.32604598999,Video recorder,Frame 116
+8602.828979492188,Video recorder,Frame 117
+8602.828979492188,Video recorder,Frame 118 (skipped)
+8658.876419067383,Video recorder,Frame 119
+8658.876419067383,Video recorder,Frame 120 (skipped)
+8713.931798934937,Video recorder,Frame 121
+8768.987655639648,Video recorder,Frame 122
+8768.987655639648,Video recorder,Frame 123 (skipped)
+8823.54712486267,Video recorder,Frame 124
+8823.54712486267,Video recorder,Frame 125 (skipped)
+8874.139308929443,Video recorder,Frame 126
+8921.754360198975,Video recorder,Frame 127
+8970.362901687622,Video recorder,Frame 128
+8970.362901687622,Video recorder,Frame 129 (skipped)
+9024.425745010376,Video recorder,Frame 130
+9024.425745010376,Video recorder,Frame 131 (skipped)
+9074.025869369507,Video recorder,Frame 132
+9121.145248413086,Video recorder,Frame 133
+9121.145248413086,Video recorder,Frame 134 (skipped)
+9174.216747283936,Video recorder,Frame 135
+9221.832513809204,Video recorder,Frame 136
+9221.832513809204,Video recorder,Frame 137 (skipped)
+9275.399923324585,Video recorder,Frame 138
+9322.024583816528,Video recorder,Frame 139
+9322.024583816528,Video recorder,Frame 140 (skipped)
+9361.704349517822,Video recorder,Frame 141
+9420.231580734253,Video recorder,Frame 142
+9469.83027458191,Video recorder,Frame 143
+9469.83027458191,Video recorder,Frame 144 (skipped)
+9523.398876190186,Video recorder,Frame 145
+9523.398876190186,Video recorder,Frame 146 (skipped)
+9585.894107818604,Video recorder,Frame 147
+9639.956951141357,Video recorder,Frame 148
+9639.956951141357,Video recorder,Frame 149 (skipped)
+9695.509910583496,Video recorder,Frame 150
+9695.509910583496,Video recorder,Frame 151 (skipped)
+9744.118452072144,Video recorder,Frame 152
+9794.241189956665,Video recorder,Frame 153
+9794.241189956665,Video recorder,Frame 154 (skipped)
+9846.291780471802,Video recorder,Frame 155
+9902.835369110107,Video recorder,Frame 156
+9902.835369110107,Video recorder,Frame 157 (skipped)
+9957.891941070557,Video recorder,Frame 158
+9957.891941070557,Video recorder,Frame 159 (skipped)
+10008.482933044434,Video recorder,Frame 160
+10055.602073669434,Video recorder,Frame 161
+10055.602073669434,Video recorder,Frame 162 (skipped)
+10107.68175125122,Video recorder,Frame 163
+10156.289339065552,Video recorder,Frame 164
+10156.289339065552,Video recorder,Frame 165 (skipped)
+10208.369255065918,Video recorder,Frame 166
+10255.289554595947,Video recorder,Frame 167
+10255.289554595947,Video recorder,Frame 168 (skipped)
+10297.449111938477,Video recorder,Frame 169
+10354.489088058472,Video recorder,Frame 170
+10404.088020324707,Video recorder,Frame 171
+10404.088020324707,Video recorder,Frame 172 (skipped)
+10458.152055740356,Video recorder,Frame 173
+10458.152055740356,Video recorder,Frame 174 (skipped)
+10508.339881896973,Video recorder,Frame 175
+10555.922269821167,Video recorder,Frame 176
+10555.922269821167,Video recorder,Frame 177 (skipped)
+10608.496904373169,Video recorder,Frame 178
+10655.617713928223,Video recorder,Frame 179
+10655.617713928223,Video recorder,Frame 180 (skipped)
+10707.696199417114,Video recorder,Frame 181
+10761.263847351074,Video recorder,Frame 182
+10761.263847351074,Video recorder,Frame 183 (skipped)
+10812.351942062378,Video recorder,Frame 184
+10872.368335723877,Video recorder,Frame 185
+10872.368335723877,Video recorder,Frame 186 (skipped)
+10925.934553146362,Video recorder,Frame 187
+10925.934553146362,Video recorder,Frame 188 (skipped)
+10978.015899658203,Video recorder,Frame 189
+11024.173736572266,Video recorder,Frame 190
+11024.173736572266,Video recorder,Frame 191 (skipped)
+11075.725317001343,Video recorder,Frame 192
+11122.350931167603,Video recorder,Frame 193
+11122.350931167603,Video recorder,Frame 194 (skipped)
+11175.91667175293,Video recorder,Frame 195
+11223.036527633667,Video recorder,Frame 196
+11223.036527633667,Video recorder,Frame 197 (skipped)
+11262.716054916382,Video recorder,Frame 198
+11321.739912033081,Video recorder,Frame 199
+11371.835231781006,Video recorder,Frame 200
+11371.835231781006,Video recorder,Frame 201 (skipped)
+11425.402879714966,Video recorder,Frame 202
+11425.402879714966,Video recorder,Frame 203 (skipped)
+11476.986646652222,Video recorder,Frame 204
+11523.114204406738,Video recorder,Frame 205
+11523.114204406738,Video recorder,Frame 206 (skipped)
+11562.298059463501,Video recorder,Frame 207
+11612.394094467163,Video recorder,Frame 208
+11660.010814666748,Video recorder,Frame 209
+11660.010814666748,Video recorder,Frame 210 (skipped)
+11710.104942321777,Video recorder,Frame 211
+11757.720708847046,Video recorder,Frame 212
+11757.720708847046,Video recorder,Frame 213 (skipped)
+11815.256357192993,Video recorder,Frame 214
+11874.776601791382,Video recorder,Frame 215
+11874.776601791382,Video recorder,Frame 216 (skipped)
+11926.855325698853,Video recorder,Frame 217
+11926.855325698853,Video recorder,Frame 218 (skipped)
+11977.447748184204,Video recorder,Frame 219
+12026.550769805908,Video recorder,Frame 220
+12026.550769805908,Video recorder,Frame 221 (skipped)
+12075.65426826477,Video recorder,Frame 222
+12125.253677368164,Video recorder,Frame 223
+12125.253677368164,Video recorder,Frame 224 (skipped)
+12176.34129524231,Video recorder,Frame 225
+12223.957538604736,Video recorder,Frame 226
+12223.957538604736,Video recorder,Frame 227 (skipped)
+12276.532649993896,Video recorder,Frame 228
+12326.13229751587,Video recorder,Frame 229
+12326.13229751587,Video recorder,Frame 230 (skipped)
+12377.220153808594,Video recorder,Frame 231
+12424.340009689331,Video recorder,Frame 232
+12424.340009689331,Video recorder,Frame 233 (skipped)
+12476.915121078491,Video recorder,Frame 234
+12524.034976959229,Video recorder,Frame 235
+12524.034976959229,Video recorder,Frame 236 (skipped)
+12576.610326766968,Video recorder,Frame 237
+12624.227046966553,Video recorder,Frame 238
+12624.227046966553,Video recorder,Frame 239 (skipped)
+12677.298307418823,Video recorder,Frame 240
+12723.425149917603,Video recorder,Frame 241
+12723.425149917603,Video recorder,Frame 242 (skipped)
+12783.440589904785,Video recorder,Frame 243
+12839.98441696167,Video recorder,Frame 244
+12839.98441696167,Video recorder,Frame 245 (skipped)
+12899.5041847229,Video recorder,Frame 246
+12899.5041847229,Video recorder,Frame 247 (skipped)
+12948.111772537231,Video recorder,Frame 248
+12997.711896896362,Video recorder,Frame 249
+12997.711896896362,Video recorder,Frame 250 (skipped)
+13046.319246292114,Video recorder,Frame 251
+13094.431400299072,Video recorder,Frame 252
+13094.431400299072,Video recorder,Frame 253 (skipped)
+13144.526481628418,Video recorder,Frame 254
+13194.125890731812,Video recorder,Frame 255
+13194.125890731812,Video recorder,Frame 256 (skipped)
+13245.710134506226,Video recorder,Frame 257
+13293.821334838867,Video recorder,Frame 258
+13293.821334838867,Video recorder,Frame 259 (skipped)
+13345.404624938965,Video recorder,Frame 260
+13392.524242401123,Video recorder,Frame 261
+13392.524242401123,Video recorder,Frame 262 (skipped)
+13431.708574295044,Video recorder,Frame 263
+13490.731477737427,Video recorder,Frame 264
+13540.827512741089,Video recorder,Frame 265
+13540.827512741089,Video recorder,Frame 266 (skipped)
+13581.499099731445,Video recorder,Frame 267
+13641.514539718628,Video recorder,Frame 268
+13641.514539718628,Video recorder,Frame 269 (skipped)
+13682.186841964722,Video recorder,Frame 270
+13740.713834762573,Video recorder,Frame 271
+13740.713834762573,Video recorder,Frame 272 (skipped)
+13783.866167068481,Video recorder,Frame 273
+13843.881368637085,Video recorder,Frame 274
+13843.881368637085,Video recorder,Frame 275 (skipped)
+13900.920629501343,Video recorder,Frame 276
+13900.920629501343,Video recorder,Frame 277 (skipped)
+13963.416337966919,Video recorder,Frame 278
+13963.416337966919,Video recorder,Frame 279 (skipped)
+14014.008522033691,Video recorder,Frame 280
+14061.652183532715,Video recorder,Frame 281
+14061.652183532715,Video recorder,Frame 282 (skipped)
+14112.710952758789,Video recorder,Frame 283
+14159.678936004639,Video recorder,Frame 284
+14159.678936004639,Video recorder,Frame 285 (skipped)
+14212.750673294067,Video recorder,Frame 286
+14260.892629623413,Video recorder,Frame 287
+14260.892629623413,Video recorder,Frame 288 (skipped)
+14313.464879989624,Video recorder,Frame 289
+14360.55588722229,Video recorder,Frame 290
+14360.55588722229,Video recorder,Frame 291 (skipped)
+14413.133382797241,Video recorder,Frame 292
+14460.279941558838,Video recorder,Frame 293
+14460.279941558838,Video recorder,Frame 294 (skipped)
+14513.32426071167,Video recorder,Frame 295
+14559.946537017822,Video recorder,Frame 296
+14559.946537017822,Video recorder,Frame 297 (skipped)
+14613.019943237305,Video recorder,Frame 298
+14660.166263580322,Video recorder,Frame 299
+14660.166263580322,Video recorder,Frame 300 (skipped)
+14713.21153640747,Video recorder,Frame 301
+14760.85376739502,Video recorder,Frame 302
+14760.85376739502,Video recorder,Frame 303 (skipped)
+14815.387487411499,Video recorder,Frame 304
+14876.888751983643,Video recorder,Frame 305
+14876.888751983643,Video recorder,Frame 306 (skipped)
+14935.415267944336,Video recorder,Frame 307
+14935.415267944336,Video recorder,Frame 308 (skipped)
+14996.42539024353,Video recorder,Frame 309
+14996.42539024353,Video recorder,Frame 310 (skipped)
+15048.502922058105,Video recorder,Frame 311
+15095.624685287476,Video recorder,Frame 312
+15095.624685287476,Video recorder,Frame 313 (skipped)
+15144.726276397705,Video recorder,Frame 314
+15193.858623504639,Video recorder,Frame 315
+15193.858623504639,Video recorder,Frame 316 (skipped)
+15246.40703201294,Video recorder,Frame 317
+15294.052124023438,Video recorder,Frame 318
+15294.052124023438,Video recorder,Frame 319 (skipped)
+15348.085165023804,Video recorder,Frame 320
+15396.692752838135,Video recorder,Frame 321
+15396.692752838135,Video recorder,Frame 322 (skipped)
+15447.284698486328,Video recorder,Frame 323
+15494.4326877594,Video recorder,Frame 324
+15494.4326877594,Video recorder,Frame 325 (skipped)
+15545.987844467163,Video recorder,Frame 326
+15594.130992889404,Video recorder,Frame 327
+15594.130992889404,Video recorder,Frame 328 (skipped)
+15647.668600082397,Video recorder,Frame 329
+15695.283889770508,Video recorder,Frame 330
+15695.283889770508,Video recorder,Frame 331 (skipped)
+15747.363090515137,Video recorder,Frame 332
+15794.977188110352,Video recorder,Frame 333
+15794.977188110352,Video recorder,Frame 334 (skipped)
+15843.090772628784,Video recorder,Frame 335
+15904.097557067871,Video recorder,Frame 336
+15904.097557067871,Video recorder,Frame 337 (skipped)
+15965.60001373291,Video recorder,Frame 338
+15965.60001373291,Video recorder,Frame 339 (skipped)
+16017.183542251587,Video recorder,Frame 340
+16064.800024032593,Video recorder,Frame 341
+16064.800024032593,Video recorder,Frame 342 (skipped)
+16116.384744644165,Video recorder,Frame 343
+16163.006782531738,Video recorder,Frame 344
+16163.006782531738,Video recorder,Frame 345 (skipped)
+16213.598728179932,Video recorder,Frame 346
+16261.71064376831,Video recorder,Frame 347
+16261.71064376831,Video recorder,Frame 348 (skipped)
+16315.802574157715,Video recorder,Frame 349
+16364.381074905396,Video recorder,Frame 350
+16364.381074905396,Video recorder,Frame 351 (skipped)
+16416.462421417236,Video recorder,Frame 352
+16463.58013153076,Video recorder,Frame 353
+16463.58013153076,Video recorder,Frame 354 (skipped)
+16515.66195487976,Video recorder,Frame 355
+16562.809705734253,Video recorder,Frame 356
+16562.809705734253,Video recorder,Frame 357 (skipped)
+16615.85283279419,Video recorder,Frame 358
+16663.96450996399,Video recorder,Frame 359
+16663.96450996399,Video recorder,Frame 360 (skipped)
+16721.00257873535,Video recorder,Frame 361
+16779.531478881836,Video recorder,Frame 362
+16779.531478881836,Video recorder,Frame 363 (skipped)
+16833.09769630432,Video recorder,Frame 364
+16833.09769630432,Video recorder,Frame 365 (skipped)
+16882.20262527466,Video recorder,Frame 366
+16932.79528617859,Video recorder,Frame 367
+16932.79528617859,Video recorder,Frame 368 (skipped)
+16983.88123512268,Video recorder,Frame 369
+17032.490015029907,Video recorder,Frame 370
+17032.490015029907,Video recorder,Frame 371 (skipped)
+17083.080053329468,Video recorder,Frame 372
+17129.703283309937,Video recorder,Frame 373
+17129.703283309937,Video recorder,Frame 374 (skipped)
+17181.28776550293,Video recorder,Frame 375
+17228.90281677246,Video recorder,Frame 376
+17228.90281677246,Video recorder,Frame 377 (skipped)
+17281.975507736206,Video recorder,Frame 378
+17330.58214187622,Video recorder,Frame 379
+17330.58214187622,Video recorder,Frame 380 (skipped)
+17383.158445358276,Video recorder,Frame 381
+17430.774688720703,Video recorder,Frame 382
+17430.774688720703,Video recorder,Frame 383 (skipped)
+17481.862545013428,Video recorder,Frame 384
+17528.982400894165,Video recorder,Frame 385
+17528.982400894165,Video recorder,Frame 386 (skipped)
+17582.05223083496,Video recorder,Frame 387
+17629.70018386841,Video recorder,Frame 388
+17629.70018386841,Video recorder,Frame 389 (skipped)
+17684.258937835693,Video recorder,Frame 390
+17730.852842330933,Video recorder,Frame 391
+17730.852842330933,Video recorder,Frame 392 (skipped)
+17782.960414886475,Video recorder,Frame 393
+17830.052375793457,Video recorder,Frame 394
+17830.052375793457,Video recorder,Frame 395 (skipped)
+17882.628202438354,Video recorder,Frame 396
+17929.251194000244,Video recorder,Frame 397
+17929.251194000244,Video recorder,Frame 398 (skipped)
+17984.307289123535,Video recorder,Frame 399
+18030.929803848267,Video recorder,Frame 400
+18030.929803848267,Video recorder,Frame 401 (skipped)
+18082.53574371338,Video recorder,Frame 402
+18130.64742088318,Video recorder,Frame 403
+18130.64742088318,Video recorder,Frame 404 (skipped)
+18182.231187820435,Video recorder,Frame 405
+18229.846477508545,Video recorder,Frame 406
+18229.846477508545,Video recorder,Frame 407 (skipped)
+18281.5580368042,Video recorder,Frame 408
+18328.677892684937,Video recorder,Frame 409
+18328.677892684937,Video recorder,Frame 410 (skipped)
+18385.194540023804,Video recorder,Frame 411
+18431.81800842285,Video recorder,Frame 412
+18431.81800842285,Video recorder,Frame 413 (skipped)
+18484.888315200806,Video recorder,Frame 414
+18532.036066055298,Video recorder,Frame 415
+18532.036066055298,Video recorder,Frame 416 (skipped)
+18583.09507369995,Video recorder,Frame 417
+18630.71084022522,Video recorder,Frame 418
+18630.71084022522,Video recorder,Frame 419 (skipped)
+18688.744068145752,Video recorder,Frame 420
+18745.28741836548,Video recorder,Frame 421
+18745.28741836548,Video recorder,Frame 422 (skipped)
+18804.805517196655,Video recorder,Frame 423
+18804.805517196655,Video recorder,Frame 424 (skipped)
+18863.361835479736,Video recorder,Frame 425
+18863.361835479736,Video recorder,Frame 426 (skipped)
+18918.88475418091,Video recorder,Frame 427
+18965.040922164917,Video recorder,Frame 428
+18965.040922164917,Video recorder,Frame 429 (skipped)
+19017.616510391235,Video recorder,Frame 430
+19065.205335617065,Video recorder,Frame 431
+19065.205335617065,Video recorder,Frame 432 (skipped)
+19116.323709487915,Video recorder,Frame 433
+19164.900302886963,Video recorder,Frame 434
+19164.900302886963,Video recorder,Frame 435 (skipped)
+19216.48406982422,Video recorder,Frame 436
+19264.625549316406,Video recorder,Frame 437
+19264.625549316406,Video recorder,Frame 438 (skipped)
+19316.673755645752,Video recorder,Frame 439
+19364.291191101074,Video recorder,Frame 440
+19364.291191101074,Video recorder,Frame 441 (skipped)
+19417.85717010498,Video recorder,Frame 442
+19465.505123138428,Video recorder,Frame 443
+19465.505123138428,Video recorder,Frame 444 (skipped)
+19522.016286849976,Video recorder,Frame 445
+19572.14069366455,Video recorder,Frame 446
+19572.14069366455,Video recorder,Frame 447 (skipped)
+19639.07241821289,Video recorder,Frame 448
+19639.07241821289,Video recorder,Frame 449 (skipped)
+19688.671112060547,Video recorder,Frame 450
+19688.671112060547,Video recorder,Frame 451 (skipped)
+19751.66392326355,Video recorder,Frame 452
+19798.81477355957,Video recorder,Frame 453
+19798.81477355957,Video recorder,Frame 454 (skipped)
+19850.8620262146,Video recorder,Frame 455
+19902.94122695923,Video recorder,Frame 456
+19902.94122695923,Video recorder,Frame 457 (skipped)
+19950.839281082153,Video recorder,Frame 458
+19999.44496154785,Video recorder,Frame 459
+19999.44496154785,Video recorder,Frame 460 (skipped)
+20050.532579421997,Video recorder,Frame 461
+20098.644256591797,Video recorder,Frame 462
+20098.644256591797,Video recorder,Frame 463 (skipped)
+20150.7248878479,Video recorder,Frame 464
+20198.339700698853,Video recorder,Frame 465
+20198.339700698853,Video recorder,Frame 466 (skipped)
+20252.403259277344,Video recorder,Frame 467
+20299.522876739502,Video recorder,Frame 468
+20299.522876739502,Video recorder,Frame 469 (skipped)
+20349.122285842896,Video recorder,Frame 470
+20399.61266517639,Video recorder,Frame 471
+20399.61266517639,Video recorder,Frame 472 (skipped)
+20450.671911239624,Video recorder,Frame 473
+20498.812437057495,Video recorder,Frame 474
+20498.812437057495,Video recorder,Frame 475 (skipped)
+20558.332681655884,Video recorder,Frame 476
+20616.859197616577,Video recorder,Frame 477
+20616.859197616577,Video recorder,Frame 478 (skipped)
+20673.403024673462,Video recorder,Frame 479
+20673.403024673462,Video recorder,Frame 480 (skipped)
+20731.903553009033,Video recorder,Frame 481
+20731.903553009033,Video recorder,Frame 482 (skipped)
+20786.461353302002,Video recorder,Frame 483
+20833.614826202393,Video recorder,Frame 484
+20833.614826202393,Video recorder,Frame 485 (skipped)
+20886.15846633911,Video recorder,Frame 486
+20932.78217315674,Video recorder,Frame 487
+20932.78217315674,Video recorder,Frame 488 (skipped)
+20985.852003097534,Video recorder,Frame 489
+21033.467531204224,Video recorder,Frame 490
+21033.467531204224,Video recorder,Frame 491 (skipped)
+21084.55514907837,Video recorder,Frame 492
+21131.178855895996,Video recorder,Frame 493
+21131.178855895996,Video recorder,Frame 494 (skipped)
+21186.731100082397,Video recorder,Frame 495
+21233.35552215576,Video recorder,Frame 496
+21233.35552215576,Video recorder,Frame 497 (skipped)
+21285.43758392334,Video recorder,Frame 498
+21333.049058914185,Video recorder,Frame 499
+21333.049058914185,Video recorder,Frame 500 (skipped)
+21385.129690170288,Video recorder,Frame 501
+21433.738470077515,Video recorder,Frame 502
+21433.738470077515,Video recorder,Frame 503 (skipped)
+21485.8181476593,Video recorder,Frame 504
+21532.93776512146,Video recorder,Frame 505
+21532.93776512146,Video recorder,Frame 506 (skipped)
+21591.960668563843,Video recorder,Frame 507
+21591.960668563843,Video recorder,Frame 508 (skipped)
+21655.446767807007,Video recorder,Frame 509
+21712.517499923706,Video recorder,Frame 510
+21712.517499923706,Video recorder,Frame 511 (skipped)
+21770.023822784424,Video recorder,Frame 512
+21770.023822784424,Video recorder,Frame 513 (skipped)
+21820.953607559204,Video recorder,Frame 514
+21820.953607559204,Video recorder,Frame 515 (skipped)
+21871.54507637024,Video recorder,Frame 516
+21918.66445541382,Video recorder,Frame 517
+21918.66445541382,Video recorder,Frame 518 (skipped)
+21969.752311706543,Video recorder,Frame 519
+22016.871690750122,Video recorder,Frame 520
+22016.871690750122,Video recorder,Frame 521 (skipped)
+22068.95160675049,Video recorder,Frame 522
+22116.5668964386,Video recorder,Frame 523
+22166.66293144226,Video recorder,Frame 524
+22166.66293144226,Video recorder,Frame 525 (skipped)
+22221.718311309814,Video recorder,Frame 526
+22268.34201812744,Video recorder,Frame 527
+22268.34201812744,Video recorder,Frame 528 (skipped)
+22319.430351257324,Video recorder,Frame 529
+22367.54298210144,Video recorder,Frame 530
+22367.54298210144,Video recorder,Frame 531 (skipped)
+22419.62242126465,Video recorder,Frame 532
+22467.732429504395,Video recorder,Frame 533
+22467.732429504395,Video recorder,Frame 534 (skipped)
+22519.81234550476,Video recorder,Frame 535
+22576.355695724487,Video recorder,Frame 536
+22576.355695724487,Video recorder,Frame 537 (skipped)
+22638.355493545532,Video recorder,Frame 538
+22638.355493545532,Video recorder,Frame 539 (skipped)
+22691.428422927856,Video recorder,Frame 540
+22691.428422927856,Video recorder,Frame 541 (skipped)
+22750.450611114502,Video recorder,Frame 542
+22801.043033599854,Video recorder,Frame 543
+22801.043033599854,Video recorder,Frame 544 (skipped)
+22845.186471939087,Video recorder,Frame 545
+22910.686016082764,Video recorder,Frame 546
+22910.686016082764,Video recorder,Frame 547 (skipped)
+22973.649978637695,Video recorder,Frame 548
+22973.649978637695,Video recorder,Frame 549 (skipped)
+23022.782564163208,Video recorder,Frame 550
+23022.782564163208,Video recorder,Frame 551 (skipped)
+23083.263874053955,Video recorder,Frame 552
+23134.35173034668,Video recorder,Frame 553
+23134.35173034668,Video recorder,Frame 554 (skipped)
+23186.92708015442,Video recorder,Frame 555
+23234.543561935425,Video recorder,Frame 556
+23234.543561935425,Video recorder,Frame 557 (skipped)
+23287.118673324585,Video recorder,Frame 558
+23287.118673324585,Video recorder,Frame 559 (skipped)
+23338.70220184326,Video recorder,Frame 560
+23386.398315429688,Video recorder,Frame 561
+23386.398315429688,Video recorder,Frame 562 (skipped)
+23441.922664642334,Video recorder,Frame 563
+23489.04037475586,Video recorder,Frame 564
+23489.04037475586,Video recorder,Frame 565 (skipped)
+23537.18113899231,Video recorder,Frame 566
+23594.687700271606,Video recorder,Frame 567
+23594.687700271606,Video recorder,Frame 568 (skipped)
+23662.143230438232,Video recorder,Frame 569
+23716.702699661255,Video recorder,Frame 570
+23716.702699661255,Video recorder,Frame 571 (skipped)
+23771.262407302856,Video recorder,Frame 572
+23771.262407302856,Video recorder,Frame 573 (skipped)
+23822.846174240112,Video recorder,Frame 574
+23822.846174240112,Video recorder,Frame 575 (skipped)
+23872.446060180664,Video recorder,Frame 576
+23919.594049453735,Video recorder,Frame 577
+23919.594049453735,Video recorder,Frame 578 (skipped)
+23971.17781639099,Video recorder,Frame 579
+24018.79382133484,Video recorder,Frame 580
+24018.79382133484,Video recorder,Frame 581 (skipped)
+24070.844173431396,Video recorder,Frame 582
+24117.992877960205,Video recorder,Frame 583
+24117.992877960205,Video recorder,Frame 584 (skipped)
+24172.552824020386,Video recorder,Frame 585
+24219.672203063965,Video recorder,Frame 586
+24219.672203063965,Video recorder,Frame 587 (skipped)
+24271.227598190308,Video recorder,Frame 588
+24318.376064300537,Video recorder,Frame 589
+24318.376064300537,Video recorder,Frame 590 (skipped)
+24372.936964035034,Video recorder,Frame 591
+24419.55852508545,Video recorder,Frame 592
+24419.55852508545,Video recorder,Frame 593 (skipped)
+24474.61438179016,Video recorder,Frame 594
+24522.231817245483,Video recorder,Frame 595
+24575.27256011963,Video recorder,Frame 596
+24575.27256011963,Video recorder,Frame 597 (skipped)
+24626.85775756836,Video recorder,Frame 598
+24626.85775756836,Video recorder,Frame 599 (skipped)
+24693.31979751587,Video recorder,Frame 600
+24740.439414978027,Video recorder,Frame 601
+24740.439414978027,Video recorder,Frame 602 (skipped)
+24791.52750968933,Video recorder,Frame 603
+24791.52750968933,Video recorder,Frame 604 (skipped)
+24843.11079978943,Video recorder,Frame 605
+24900.150299072266,Video recorder,Frame 606
+24900.150299072266,Video recorder,Frame 607 (skipped)
+24955.73115348816,Video recorder,Frame 608
+25002.85005569458,Video recorder,Frame 609
+25002.85005569458,Video recorder,Frame 610 (skipped)
+25054.434537887573,Video recorder,Frame 611
+25054.434537887573,Video recorder,Frame 612 (skipped)
+25105.493783950806,Video recorder,Frame 613
+25153.63335609436,Video recorder,Frame 614
+25153.63335609436,Video recorder,Frame 615 (skipped)
+25205.216884613037,Video recorder,Frame 616
+25252.832412719727,Video recorder,Frame 617
+25252.832412719727,Video recorder,Frame 618 (skipped)
+25304.884910583496,Video recorder,Frame 619
+25352.498769760132,Video recorder,Frame 620
+25352.498769760132,Video recorder,Frame 621 (skipped)
+25405.571460723877,Video recorder,Frame 622
+25453.2151222229,Video recorder,Frame 623
+25453.2151222229,Video recorder,Frame 624 (skipped)
+25505.295515060425,Video recorder,Frame 625
+25553.874731063843,Video recorder,Frame 626
+25553.874731063843,Video recorder,Frame 627 (skipped)
+25613.890886306763,Video recorder,Frame 628
+25670.957565307617,Video recorder,Frame 629
+25670.957565307617,Video recorder,Frame 630 (skipped)
+25726.481199264526,Video recorder,Frame 631
+25775.583744049072,Video recorder,Frame 632
+25775.583744049072,Video recorder,Frame 633 (skipped)
+25824.716091156006,Video recorder,Frame 634
+25824.716091156006,Video recorder,Frame 635 (skipped)
+25885.69664955139,Video recorder,Frame 636
+25936.317682266235,Video recorder,Frame 637
+25936.317682266235,Video recorder,Frame 638 (skipped)
+25991.371393203735,Video recorder,Frame 639
+25991.371393203735,Video recorder,Frame 640 (skipped)
+26041.46671295166,Video recorder,Frame 641
+26090.07501602173,Video recorder,Frame 642
+26090.07501602173,Video recorder,Frame 643 (skipped)
+26141.658782958984,Video recorder,Frame 644
+26189.24641609192,Video recorder,Frame 645
+26189.24641609192,Video recorder,Frame 646 (skipped)
+26240.362644195557,Video recorder,Frame 647
+26287.48106956482,Video recorder,Frame 648
+26287.48106956482,Video recorder,Frame 649 (skipped)
+26337.576150894165,Video recorder,Frame 650
+26386.184215545654,Video recorder,Frame 651
+26386.184215545654,Video recorder,Frame 652 (skipped)
+26427.353143692017,Video recorder,Frame 653
+26486.87219619751,Video recorder,Frame 654
+26527.047634124756,Video recorder,Frame 655
+26527.047634124756,Video recorder,Frame 656 (skipped)
+26586.070775985718,Video recorder,Frame 657
+26646.555185317993,Video recorder,Frame 658
+26646.555185317993,Video recorder,Frame 659 (skipped)
+26709.048986434937,Video recorder,Frame 660
+26709.048986434937,Video recorder,Frame 661 (skipped)
+26759.64045524597,Video recorder,Frame 662
+26759.64045524597,Video recorder,Frame 663 (skipped)
+26820.15371322632,Video recorder,Frame 664
+26869.781255722046,Video recorder,Frame 665
+26869.781255722046,Video recorder,Frame 666 (skipped)
+26923.34818840027,Video recorder,Frame 667
+26923.34818840027,Video recorder,Frame 668 (skipped)
+26981.84895515442,Video recorder,Frame 669
+27037.92452812195,Video recorder,Frame 670
+27037.92452812195,Video recorder,Frame 671 (skipped)
+27089.47801589966,Video recorder,Frame 672
+27089.47801589966,Video recorder,Frame 673 (skipped)
+27140.56634902954,Video recorder,Frame 674
+27189.173221588135,Video recorder,Frame 675
+27189.173221588135,Video recorder,Frame 676 (skipped)
+27242.244958877563,Video recorder,Frame 677
+27289.393663406372,Video recorder,Frame 678
+27289.393663406372,Video recorder,Frame 679 (skipped)
+27340.948581695557,Video recorder,Frame 680
+27388.59486579895,Video recorder,Frame 681
+27388.59486579895,Video recorder,Frame 682 (skipped)
+27440.178155899048,Video recorder,Frame 683
+27487.794399261475,Video recorder,Frame 684
+27487.794399261475,Video recorder,Frame 685 (skipped)
+27529.45876121521,Video recorder,Frame 686
+27586.99369430542,Video recorder,Frame 687
+27638.051748275757,Video recorder,Frame 688
+27638.051748275757,Video recorder,Frame 689 (skipped)
+27685.199975967407,Video recorder,Frame 690
+27744.68946456909,Video recorder,Frame 691
+27744.68946456909,Video recorder,Frame 692 (skipped)
+27806.193113327026,Video recorder,Frame 693
+27806.193113327026,Video recorder,Frame 694 (skipped)
+27859.294176101685,Video recorder,Frame 695
+27859.294176101685,Video recorder,Frame 696 (skipped)
+27912.864923477173,Video recorder,Frame 697
+27958.959579467773,Video recorder,Frame 698
+27958.959579467773,Video recorder,Frame 699 (skipped)
+28009.58013534546,Video recorder,Frame 700
+28056.703090667725,Video recorder,Frame 701
+28056.703090667725,Video recorder,Frame 702 (skipped)
+28108.255863189697,Video recorder,Frame 703
+28155.89928627014,Video recorder,Frame 704
+28155.89928627014,Video recorder,Frame 705 (skipped)
+28206.987380981445,Video recorder,Frame 706
+28254.6067237854,Video recorder,Frame 707
+28254.6067237854,Video recorder,Frame 708 (skipped)
+28295.27449607849,Video recorder,Frame 709
+28344.876289367676,Video recorder,Frame 710
+28393.452405929565,Video recorder,Frame 711
+28393.452405929565,Video recorder,Frame 712 (skipped)
+28443.549871444702,Video recorder,Frame 713
+28491.163730621338,Video recorder,Frame 714
+28491.163730621338,Video recorder,Frame 715 (skipped)
+28544.75498199463,Video recorder,Frame 716
+28593.863487243652,Video recorder,Frame 717
+28593.863487243652,Video recorder,Frame 718 (skipped)
+28660.79568862915,Video recorder,Frame 719
+28711.41505241394,Video recorder,Frame 720
+28711.41505241394,Video recorder,Frame 721 (skipped)
+28760.023832321167,Video recorder,Frame 722
+28760.023832321167,Video recorder,Frame 723 (skipped)
+28821.032524108887,Video recorder,Frame 724
+28873.108625411987,Video recorder,Frame 725
+28873.108625411987,Video recorder,Frame 726 (skipped)
+28925.161361694336,Video recorder,Frame 727
+28925.161361694336,Video recorder,Frame 728 (skipped)
+28976.7746925354,Video recorder,Frame 729
+29023.399114608765,Video recorder,Frame 730
+29023.399114608765,Video recorder,Frame 731 (skipped)
+29074.982404708862,Video recorder,Frame 732
+29122.100114822388,Video recorder,Frame 733
+29122.100114822388,Video recorder,Frame 734 (skipped)
+29177.408456802368,Video recorder,Frame 735
+29224.032163619995,Video recorder,Frame 736
+29224.032163619995,Video recorder,Frame 737 (skipped)
+29277.103662490845,Video recorder,Frame 738
+29324.223279953003,Video recorder,Frame 739
+29324.223279953003,Video recorder,Frame 740 (skipped)
+29375.807762145996,Video recorder,Frame 741
+29423.42257499695,Video recorder,Frame 742
+29472.52607345581,Video recorder,Frame 743
+29472.52607345581,Video recorder,Frame 744 (skipped)
+29528.078079223633,Video recorder,Frame 745
+29528.078079223633,Video recorder,Frame 746 (skipped)
+29578.669786453247,Video recorder,Frame 747
+29626.285791397095,Video recorder,Frame 748
+29626.285791397095,Video recorder,Frame 749 (skipped)
+29677.372694015503,Video recorder,Frame 750
+29724.36761856079,Video recorder,Frame 751
+29724.36761856079,Video recorder,Frame 752 (skipped)
+29775.454998016357,Video recorder,Frame 753
+29823.070764541626,Video recorder,Frame 754
+29823.070764541626,Video recorder,Frame 755 (skipped)
+29879.11820411682,Video recorder,Frame 756
+29925.74191093445,Video recorder,Frame 757
+29925.74191093445,Video recorder,Frame 758 (skipped)
+29978.31678390503,Video recorder,Frame 759
+30024.93953704834,Video recorder,Frame 760
+30024.93953704834,Video recorder,Frame 761 (skipped)
+30077.02088356018,Video recorder,Frame 762
+30124.635934829712,Video recorder,Frame 763
+30124.635934829712,Video recorder,Frame 764 (skipped)
+30177.210569381714,Video recorder,Frame 765
+30224.329710006714,Video recorder,Frame 766
+30224.329710006714,Video recorder,Frame 767 (skipped)
+30275.418519973755,Video recorder,Frame 768
+30323.033094406128,Video recorder,Frame 769
+30323.033094406128,Video recorder,Frame 770 (skipped)
+30378.08895111084,Video recorder,Frame 771
+30429.176330566406,Video recorder,Frame 772
+30481.752634048462,Video recorder,Frame 773
+30481.752634048462,Video recorder,Frame 774 (skipped)
+30545.764446258545,Video recorder,Frame 775
+30545.764446258545,Video recorder,Frame 776 (skipped)
+30595.834255218506,Video recorder,Frame 777
+30595.834255218506,Video recorder,Frame 778 (skipped)
+30646.91972732544,Video recorder,Frame 779
+30696.024417877197,Video recorder,Frame 780
+30696.024417877197,Video recorder,Frame 781 (skipped)
+30744.13514137268,Video recorder,Frame 782
+30793.915510177612,Video recorder,Frame 783
+30793.915510177612,Video recorder,Frame 784 (skipped)
+30845.497369766235,Video recorder,Frame 785
+30892.616987228394,Video recorder,Frame 786
+30892.616987228394,Video recorder,Frame 787 (skipped)
+30943.209648132324,Video recorder,Frame 788
+30990.824460983276,Video recorder,Frame 789
+30990.824460983276,Video recorder,Frame 790 (skipped)
+31043.896675109863,Video recorder,Frame 791
+31091.51315689087,Video recorder,Frame 792
+31139.62483406067,Video recorder,Frame 793
+31139.62483406067,Video recorder,Frame 794 (skipped)
+31194.678783416748,Video recorder,Frame 795
+31194.678783416748,Video recorder,Frame 796 (skipped)
+31246.262550354004,Video recorder,Frame 797
+31292.88601875305,Video recorder,Frame 798
+31292.88601875305,Video recorder,Frame 799 (skipped)
+31344.469785690308,Video recorder,Frame 800
+31392.085790634155,Video recorder,Frame 801
+31392.085790634155,Video recorder,Frame 802 (skipped)
+31443.17317008972,Video recorder,Frame 803
+31491.28532409668,Video recorder,Frame 804
+31491.28532409668,Video recorder,Frame 805 (skipped)
+31543.88999938965,Video recorder,Frame 806
+31607.84602165222,Video recorder,Frame 807
+31607.84602165222,Video recorder,Frame 808 (skipped)
+31689.188718795776,Synchronizer,SYNCTIME
+31690.181255340576,Keyboard,Key: Key.esc (Released)
+31712.003707885742,Video recorder,Frame 809
+31712.003707885742,Video recorder,Frame 810 (skipped)
+31780.946493148804,Video recorder,Frame 811
+31780.946493148804,Video recorder,Frame 812 (skipped)
+31780.946493148804,Video recorder,Frame 813 (skipped)
+31848.89817237854,Video recorder,Frame 814
+31848.89817237854,Video recorder,Frame 815 (skipped)
+31909.41047668457,Video recorder,Frame 816
+31909.41047668457,Video recorder,Frame 817 (skipped)
+31961.00091934204,Video recorder,Frame 818
+31961.00091934204,Video recorder,Frame 819 (skipped)
+32015.056848526,Video recorder,Frame 820
+32071.104526519775,Video recorder,Frame 821
+32071.104526519775,Video recorder,Frame 822 (skipped)
+32127.153873443604,Video recorder,Frame 823
+32127.153873443604,Video recorder,Frame 824 (skipped)
+32181.215524673462,Video recorder,Frame 825
+32228.33561897278,Video recorder,Frame 826
+32228.33561897278,Video recorder,Frame 827 (skipped)
+32280.415058135986,Video recorder,Frame 828
+32329.367876052856,Video recorder,Frame 829
+32329.367876052856,Video recorder,Frame 830 (skipped)
+32380.456686019897,Video recorder,Frame 831
+32432.03902244568,Video recorder,Frame 832
+32432.03902244568,Video recorder,Frame 833 (skipped)
+32499.49622154236,Video recorder,Frame 834
+32553.062200546265,Video recorder,Frame 835
+32553.062200546265,Video recorder,Frame 836 (skipped)
+32612.086057662964,Video recorder,Frame 837
+32612.086057662964,Video recorder,Frame 838 (skipped)
+32663.17391395569,Video recorder,Frame 839
+32663.17391395569,Video recorder,Frame 840 (skipped)
+32714.261054992676,Video recorder,Frame 841
+32762.56513595581,Video recorder,Frame 842
+32762.56513595581,Video recorder,Frame 843 (skipped)
+32812.660694122314,Video recorder,Frame 844
+32861.268520355225,Video recorder,Frame 845
+32861.268520355225,Video recorder,Frame 846 (skipped)
+32913.34819793701,Video recorder,Frame 847
+32960.46781539917,Video recorder,Frame 848
+32960.46781539917,Video recorder,Frame 849 (skipped)
+33010.3018283844,Video recorder,Frame 850
+33059.37385559082,Video recorder,Frame 851
+33059.37385559082,Video recorder,Frame 852 (skipped)
+33110.9573841095,Video recorder,Frame 853
+33159.06739234924,Video recorder,Frame 854
+33159.06739234924,Video recorder,Frame 855 (skipped)
+33213.160037994385,Video recorder,Frame 856
+33260.775566101074,Video recorder,Frame 857
+33260.775566101074,Video recorder,Frame 858 (skipped)
+33312.33334541321,Video recorder,Frame 859
+33359.45200920105,Video recorder,Frame 860
+33359.45200920105,Video recorder,Frame 861 (skipped)
+33410.539388656616,Video recorder,Frame 862
+33459.14721488953,Video recorder,Frame 863
+33459.14721488953,Video recorder,Frame 864 (skipped)
+33513.705253601074,Video recorder,Frame 865
+33560.826778411865,Video recorder,Frame 866
+33560.826778411865,Video recorder,Frame 867 (skipped)
+33616.376876831055,Video recorder,Frame 868
+33665.47966003418,Video recorder,Frame 869
+33665.47966003418,Video recorder,Frame 870 (skipped)
+33716.10236167908,Video recorder,Frame 871
+33772.66454696655,Video recorder,Frame 872
+33772.66454696655,Video recorder,Frame 873 (skipped)
+33828.216791152954,Video recorder,Frame 874
+33828.216791152954,Video recorder,Frame 875 (skipped)
+33879.79984283447,Video recorder,Frame 876
+33927.41537094116,Video recorder,Frame 877
+33927.41537094116,Video recorder,Frame 878 (skipped)
+33980.48782348633,Video recorder,Frame 879
+34027.11081504822,Video recorder,Frame 880
+34027.11081504822,Video recorder,Frame 881 (skipped)
+34078.69505882263,Video recorder,Frame 882
+34126.806020736694,Video recorder,Frame 883
+34126.806020736694,Video recorder,Frame 884 (skipped)
+34178.887367248535,Video recorder,Frame 885
+34226.50146484375,Video recorder,Frame 886
+34226.50146484375,Video recorder,Frame 887 (skipped)
+34278.58114242554,Video recorder,Frame 888
+34327.18849182129,Video recorder,Frame 889
+34327.18849182129,Video recorder,Frame 890 (skipped)
+34379.76431846619,Video recorder,Frame 891
+34426.883935928345,Video recorder,Frame 892
+34426.883935928345,Video recorder,Frame 893 (skipped)
+34480.94844818115,Video recorder,Frame 894
+34527.570962905884,Video recorder,Frame 895
+34527.570962905884,Video recorder,Frame 896 (skipped)
+34578.65858078003,Video recorder,Frame 897
+34627.26640701294,Video recorder,Frame 898
+34627.26640701294,Video recorder,Frame 899 (skipped)
+34679.41474914551,Video recorder,Frame 900
+34727.03051567078,Video recorder,Frame 901
+34727.03051567078,Video recorder,Frame 902 (skipped)
+34780.598163604736,Video recorder,Frame 903
+34827.71801948547,Video recorder,Frame 904
+34827.71801948547,Video recorder,Frame 905 (skipped)
+34883.45146179199,Video recorder,Frame 906
+34930.72056770325,Video recorder,Frame 907
+34930.72056770325,Video recorder,Frame 908 (skipped)
+34981.807470321655,Video recorder,Frame 909
+35028.926849365234,Video recorder,Frame 910
+35028.926849365234,Video recorder,Frame 911 (skipped)
+35081.50267601013,Video recorder,Frame 912
+35129.61459159851,Video recorder,Frame 913
+35129.61459159851,Video recorder,Frame 914 (skipped)
+35181.19788169861,Video recorder,Frame 915
+35228.24549674988,Video recorder,Frame 916
+35228.24549674988,Video recorder,Frame 917 (skipped)
+35281.813621520996,Video recorder,Frame 918
+35329.42795753479,Video recorder,Frame 919
+35329.42795753479,Video recorder,Frame 920 (skipped)
+35382.96699523926,Video recorder,Frame 921
+35429.59237098694,Video recorder,Frame 922
+35429.59237098694,Video recorder,Frame 923 (skipped)
+35481.175899505615,Video recorder,Frame 924
+35532.26280212402,Video recorder,Frame 925
+35532.26280212402,Video recorder,Frame 926 (skipped)
+35601.2065410614,Video recorder,Frame 927
+35601.2065410614,Video recorder,Frame 928 (skipped)
+35666.67890548706,Video recorder,Frame 929
+35666.67890548706,Video recorder,Frame 930 (skipped)
+35721.73309326172,Video recorder,Frame 931
+35721.73309326172,Video recorder,Frame 932 (skipped)
+35784.72399711609,Video recorder,Frame 933
+35837.79740333557,Video recorder,Frame 934
+35837.79740333557,Video recorder,Frame 935 (skipped)
+35901.77917480469,Video recorder,Frame 936
+35901.77917480469,Video recorder,Frame 937 (skipped)
+35961.30061149597,Video recorder,Frame 938
+35961.30061149597,Video recorder,Frame 939 (skipped)
+36014.867067337036,Video recorder,Frame 940
+36062.97779083252,Video recorder,Frame 941
+36062.97779083252,Video recorder,Frame 942 (skipped)
+36114.561796188354,Video recorder,Frame 943
+36162.208557128906,Video recorder,Frame 944
+36162.208557128906,Video recorder,Frame 945 (skipped)
+36214.754819869995,Video recorder,Frame 946
+36262.396812438965,Video recorder,Frame 947
+36262.396812438965,Video recorder,Frame 948 (skipped)
+36313.95387649536,Video recorder,Frame 949
+36363.58046531677,Video recorder,Frame 950
+36363.58046531677,Video recorder,Frame 951 (skipped)
+36415.63320159912,Video recorder,Frame 952
+36464.26749229431,Video recorder,Frame 953
+36464.26749229431,Video recorder,Frame 954 (skipped)
+36517.33922958374,Video recorder,Frame 955
+36567.40856170654,Video recorder,Frame 956
+36567.40856170654,Video recorder,Frame 957 (skipped)
+36617.037296295166,Video recorder,Frame 958
+36665.64226150513,Video recorder,Frame 959
+36665.64226150513,Video recorder,Frame 960 (skipped)
+36716.70126914978,Video recorder,Frame 961
+36764.84179496765,Video recorder,Frame 962
+36764.84179496765,Video recorder,Frame 963 (skipped)
+36815.92893600464,Video recorder,Frame 964
+36864.04085159302,Video recorder,Frame 965
+36864.04085159302,Video recorder,Frame 966 (skipped)
+36917.579650878906,Video recorder,Frame 967
+36963.706970214844,Video recorder,Frame 968
+36963.706970214844,Video recorder,Frame 969 (skipped)
+37015.78736305237,Video recorder,Frame 970
+37064.89038467407,Video recorder,Frame 971
+37064.89038467407,Video recorder,Frame 972 (skipped)
+37115.97990989685,Video recorder,Frame 973
+37163.097858428955,Video recorder,Frame 974
+37163.097858428955,Video recorder,Frame 975 (skipped)
+37214.683055877686,Video recorder,Frame 976
+37263.816356658936,Video recorder,Frame 977
+37263.816356658936,Video recorder,Frame 978 (skipped)
+37314.90111351013,Video recorder,Frame 979
+37363.0154132843,Video recorder,Frame 980
+37363.0154132843,Video recorder,Frame 981 (skipped)
+37415.06385803223,Video recorder,Frame 982
+37462.679386138916,Video recorder,Frame 983
+37462.679386138916,Video recorder,Frame 984 (skipped)
+37516.74485206604,Video recorder,Frame 985
+37564.85462188721,Video recorder,Frame 986
+37564.85462188721,Video recorder,Frame 987 (skipped)
+37615.943908691406,Video recorder,Frame 988
+37665.045976638794,Video recorder,Frame 989
+37665.045976638794,Video recorder,Frame 990 (skipped)
+37716.6314125061,Video recorder,Frame 991
+37766.725063323975,Video recorder,Frame 992
+37766.725063323975,Video recorder,Frame 993 (skipped)
+37817.842960357666,Video recorder,Frame 994
+37864.93229866028,Video recorder,Frame 995
+37864.93229866028,Video recorder,Frame 996 (skipped)
+37919.493198394775,Video recorder,Frame 997
+37965.123653411865,Video recorder,Frame 998
+37965.123653411865,Video recorder,Frame 999 (skipped)
+38017.20356941223,Video recorder,Frame 1000
+38067.29984283447,Video recorder,Frame 1001
+38067.29984283447,Video recorder,Frame 1002 (skipped)
+38117.39492416382,Video recorder,Frame 1003
+38168.482303619385,Video recorder,Frame 1004
+38168.482303619385,Video recorder,Frame 1005 (skipped)
+38218.08218955994,Video recorder,Frame 1006
+38218.08218955994,Video recorder,Frame 1007 (skipped)
+38268.17750930786,Video recorder,Frame 1008
+38316.78605079651,Video recorder,Frame 1009
+38316.78605079651,Video recorder,Frame 1010 (skipped)
+38367.87271499634,Video recorder,Frame 1011
+38414.00051116943,Video recorder,Frame 1012
+38463.59992027283,Video recorder,Frame 1013
+38463.59992027283,Video recorder,Frame 1014 (skipped)
+38516.67284965515,Video recorder,Frame 1015
+38564.31818008423,Video recorder,Frame 1016
+38564.31818008423,Video recorder,Frame 1017 (skipped)
+38615.91958999634,Video recorder,Frame 1018
+38665.19856452942,Video recorder,Frame 1019
+38665.19856452942,Video recorder,Frame 1020 (skipped)
+38717.7734375,Video recorder,Frame 1021
+38764.36972618103,Video recorder,Frame 1022
+38764.36972618103,Video recorder,Frame 1023 (skipped)
+38815.95182418823,Video recorder,Frame 1024
+38864.55941200256,Video recorder,Frame 1025
+38864.55941200256,Video recorder,Frame 1026 (skipped)
+38920.14002799988,Video recorder,Frame 1027
+38964.752435684204,Video recorder,Frame 1028
+38964.752435684204,Video recorder,Frame 1029 (skipped)
+39003.93486022949,Video recorder,Frame 1030
+39063.94982337952,Video recorder,Frame 1031
+39063.94982337952,Video recorder,Frame 1032 (skipped)
+39118.01552772522,Video recorder,Frame 1033
+39165.65823554993,Video recorder,Frame 1034
+39165.65823554993,Video recorder,Frame 1035 (skipped)
+39216.7181968689,Video recorder,Frame 1036
+39265.3534412384,Video recorder,Frame 1037
+39265.3534412384,Video recorder,Frame 1038 (skipped)
+39316.44344329834,Video recorder,Frame 1039
+39364.55273628235,Video recorder,Frame 1040
+39364.55273628235,Video recorder,Frame 1041 (skipped)
+39419.08359527588,Video recorder,Frame 1042
+39467.19527244568,Video recorder,Frame 1043
+39467.19527244568,Video recorder,Frame 1044 (skipped)
+39519.800424575806,Video recorder,Frame 1045
+39566.39575958252,Video recorder,Frame 1046
+39566.39575958252,Video recorder,Frame 1047 (skipped)
+39617.48194694519,Video recorder,Frame 1048
+39666.08953475952,Video recorder,Frame 1049
+39666.08953475952,Video recorder,Frame 1050 (skipped)
+39718.169927597046,Video recorder,Frame 1051
+39765.29026031494,Video recorder,Frame 1052
+39765.29026031494,Video recorder,Frame 1053 (skipped)
+39817.39807128906,Video recorder,Frame 1054
+39864.48836326599,Video recorder,Frame 1055
+39864.48836326599,Video recorder,Frame 1056 (skipped)
+39908.631801605225,Video recorder,Frame 1057
+39965.672731399536,Video recorder,Frame 1058
+39965.672731399536,Video recorder,Frame 1059 (skipped)
+40016.76058769226,Video recorder,Frame 1060
+40064.89968299866,Video recorder,Frame 1061
+40064.89968299866,Video recorder,Frame 1062 (skipped)
+40119.92621421814,Video recorder,Frame 1063
+40166.5518283844,Video recorder,Frame 1064
+40166.5518283844,Video recorder,Frame 1065 (skipped)
+40217.639207839966,Video recorder,Frame 1066
+40265.75064659119,Video recorder,Frame 1067
+40265.75064659119,Video recorder,Frame 1068 (skipped)
+40305.429458618164,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40320.31011581421,Video recorder,Frame 1069
+40321.30408287048,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40329.238414764404,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40337.172746658325,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40345.13807296753,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40353.54256629944,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40361.4776134491,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40369.41313743591,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40373.41499328613,Video recorder,Frame 1070
+40377.349853515625,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40373.41499328613,Video recorder,Frame 1071 (skipped)
+40393.22018623352,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40432.899951934814,Video recorder,Frame 1072
+40432.899951934814,Video recorder,Frame 1073 (skipped)
+40483.98756980896,Video recorder,Frame 1074
+40532.59515762329,Video recorder,Frame 1075
+40532.59515762329,Video recorder,Frame 1076 (skipped)
+40583.69493484497,Video recorder,Frame 1077
+40593.11866760254,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40608.99114608765,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40617.422580718994,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40625.359535217285,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40633.2950592041,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40637.75825500488,Video recorder,Frame 1078
+40637.75825500488,Video recorder,Frame 1079 (skipped)
+40641.23511314392,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40649.19662475586,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40657.10234642029,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40665.0390625,Mouse,X:1582; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40673.47049713135,Mouse,X:1583; Y:391; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40691.32590293884,Video recorder,Frame 1080
+40691.32590293884,Video recorder,Frame 1081 (skipped)
+40751.34205818176,Video recorder,Frame 1082
+40798.957109451294,Video recorder,Frame 1083
+40798.957109451294,Video recorder,Frame 1084 (skipped)
+40849.05457496643,Video recorder,Frame 1085
+40901.628494262695,Video recorder,Frame 1086
+40901.628494262695,Video recorder,Frame 1087 (skipped)
+40913.03634643555,Mouse,X:1583; Y:390; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40929.404973983765,Mouse,X:1583; Y:390; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40945.27769088745,Mouse,X:1583; Y:390; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40953.21297645569,Mouse,X:1583; Y:390; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40953.7091255188,Video recorder,Frame 1088
+40953.7091255188,Video recorder,Frame 1089 (skipped)
+40961.14945411682,Mouse,X:1583; Y:390; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40969.085693359375,Mouse,X:1583; Y:390; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40977.04863548279,Mouse,X:1583; Y:390; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+40985.94880104065,Mouse,X:1583; Y:390; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+41001.325607299805,Mouse,X:1583; Y:388; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+41006.31332397461,Video recorder,Frame 1090
+41054.89134788513,Video recorder,Frame 1091
+41103.004455566406,Video recorder,Frame 1092
+41103.004455566406,Video recorder,Frame 1093 (skipped)
+41153.59449386597,Video recorder,Frame 1094
+41153.59449386597,Video recorder,Frame 1095 (skipped)
+41208.15420150757,Video recorder,Frame 1096
+41263.70549201965,Video recorder,Frame 1097
+41263.70549201965,Video recorder,Frame 1098 (skipped)
+41305.86552619934,Video recorder,Frame 1099
+41364.39299583435,Video recorder,Frame 1100
+41364.39299583435,Video recorder,Frame 1101 (skipped)
+41419.944524765015,Video recorder,Frame 1102
+41466.95613861084,Video recorder,Frame 1103
+41466.95613861084,Video recorder,Frame 1104 (skipped)
+41519.036054611206,Video recorder,Frame 1105
+41567.64340400696,Video recorder,Frame 1106
+41567.64340400696,Video recorder,Frame 1107 (skipped)
+41620.21899223328,Video recorder,Frame 1108
+41669.32272911072,Video recorder,Frame 1109
+41669.32272911072,Video recorder,Frame 1110 (skipped)
+41723.384857177734,Video recorder,Frame 1111
+41723.384857177734,Video recorder,Frame 1112 (skipped)
+41782.40942955017,Video recorder,Frame 1113
+41832.50546455383,Video recorder,Frame 1114
+41832.50546455383,Video recorder,Frame 1115 (skipped)
+41887.06469535828,Video recorder,Frame 1116
+41935.17470359802,Video recorder,Frame 1117
+41935.17470359802,Video recorder,Frame 1118 (skipped)
+41986.26518249512,Video recorder,Frame 1119
+42033.382177352905,Video recorder,Frame 1120
+42033.382177352905,Video recorder,Frame 1121 (skipped)
+42086.9517326355,Video recorder,Frame 1122
+42134.071350097656,Video recorder,Frame 1123
+42134.071350097656,Video recorder,Frame 1124 (skipped)
+42185.65487861633,Video recorder,Frame 1125
+42233.76655578613,Video recorder,Frame 1126
+42233.76655578613,Video recorder,Frame 1127 (skipped)
+42284.8539352417,Video recorder,Frame 1128
+42333.46080780029,Video recorder,Frame 1129
+42333.46080780029,Video recorder,Frame 1130 (skipped)
+42387.52365112305,Video recorder,Frame 1131
+42434.147119522095,Video recorder,Frame 1132
+42434.147119522095,Video recorder,Frame 1133 (skipped)
+42487.21981048584,Video recorder,Frame 1134
+42534.86347198486,Video recorder,Frame 1135
+42534.86347198486,Video recorder,Frame 1136 (skipped)
+42586.41982078552,Video recorder,Frame 1137
+42634.56106185913,Video recorder,Frame 1138
+42634.56106185913,Video recorder,Frame 1139 (skipped)
+42686.113595962524,Video recorder,Frame 1140
+42734.721183776855,Video recorder,Frame 1141
+42734.721183776855,Video recorder,Frame 1142 (skipped)
+42785.810708999634,Video recorder,Frame 1143
+42834.41615104675,Video recorder,Frame 1144
+42834.41615104675,Video recorder,Frame 1145 (skipped)
+42886.49606704712,Video recorder,Frame 1146
+42935.6005191803,Video recorder,Frame 1147
+42935.6005191803,Video recorder,Frame 1148 (skipped)
+42985.81671714783,Video recorder,Frame 1149
+43033.928871154785,Video recorder,Frame 1150
+43033.928871154785,Video recorder,Frame 1151 (skipped)
+43088.984966278076,Video recorder,Frame 1152
+43136.10363006592,Video recorder,Frame 1153
+43136.10363006592,Video recorder,Frame 1154 (skipped)
+43187.687397003174,Video recorder,Frame 1155
+43187.687397003174,Video recorder,Frame 1156 (skipped)
+43235.79907417297,Video recorder,Frame 1157
+43285.8943939209,Video recorder,Frame 1158
+43333.510875701904,Video recorder,Frame 1159
+43333.510875701904,Video recorder,Frame 1160 (skipped)
+43388.06986808777,Video recorder,Frame 1161
+43435.158252716064,Video recorder,Frame 1162
+43435.158252716064,Video recorder,Frame 1163 (skipped)
+43486.74201965332,Video recorder,Frame 1164
+43534.26933288574,Video recorder,Frame 1165
+43534.26933288574,Video recorder,Frame 1166 (skipped)
+43586.84539794922,Video recorder,Frame 1167
+43634.46068763733,Video recorder,Frame 1168
+43634.46068763733,Video recorder,Frame 1169 (skipped)
+43688.52424621582,Video recorder,Frame 1170
+43736.63783073425,Video recorder,Frame 1171
+43736.63783073425,Video recorder,Frame 1172 (skipped)
+43787.723541259766,Video recorder,Frame 1173
+43787.723541259766,Video recorder,Frame 1174 (skipped)
+43801.1155128479,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+43840.795040130615,Video recorder,Frame 1175
+43888.44180107117,Video recorder,Frame 1176
+43888.44180107117,Video recorder,Frame 1177 (skipped)
+43939.0025138855,Video recorder,Frame 1178
+43986.61971092224,Video recorder,Frame 1179
+43986.61971092224,Video recorder,Frame 1180 (skipped)
+44035.25424003601,Video recorder,Frame 1181
+44081.353187561035,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+44086.809396743774,Video recorder,Frame 1182
+44086.809396743774,Video recorder,Frame 1183 (skipped)
+44138.39292526245,Video recorder,Frame 1184
+44186.00845336914,Video recorder,Frame 1185
+44186.00845336914,Video recorder,Frame 1186 (skipped)
+44237.5922203064,Video recorder,Frame 1187
+44286.200523376465,Video recorder,Frame 1188
+44286.200523376465,Video recorder,Frame 1189 (skipped)
+44337.85820007324,Video recorder,Frame 1190
+44345.272064208984,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+44387.42804527283,Video recorder,Frame 1191
+44387.42804527283,Video recorder,Frame 1192 (skipped)
+44436.06758117676,Video recorder,Frame 1193
+44486.65642738342,Video recorder,Frame 1194
+44534.27195549011,Video recorder,Frame 1195
+44534.27195549011,Video recorder,Frame 1196 (skipped)
+44575.93655586243,Video recorder,Frame 1197
+44633.96716117859,Video recorder,Frame 1198
+44633.96716117859,Video recorder,Frame 1199 (skipped)
+44689.49007987976,Video recorder,Frame 1200
+44736.63854598999,Video recorder,Frame 1201
+44736.63854598999,Video recorder,Frame 1202 (skipped)
+44789.68143463135,Video recorder,Frame 1203
+44789.68143463135,Video recorder,Frame 1204 (skipped)
+44837.8221988678,Video recorder,Frame 1205
+44889.37759399414,Video recorder,Frame 1206
+44940.9613609314,Video recorder,Frame 1207
+44940.9613609314,Video recorder,Frame 1208 (skipped)
+44994.529247283936,Video recorder,Frame 1209
+44994.529247283936,Video recorder,Frame 1210 (skipped)
+45043.66040229797,Video recorder,Frame 1211
+45100.67105293274,Video recorder,Frame 1212
+45100.67105293274,Video recorder,Frame 1213 (skipped)
+45155.757904052734,Video recorder,Frame 1214
+45203.34219932556,Video recorder,Frame 1215
+45203.34219932556,Video recorder,Frame 1216 (skipped)
+45251.48296356201,Video recorder,Frame 1217
+45251.48296356201,Video recorder,Frame 1218 (skipped)
+45306.538581848145,Video recorder,Frame 1219
+45353.65891456604,Video recorder,Frame 1220
+45353.65891456604,Video recorder,Frame 1221 (skipped)
+45406.72945976257,Video recorder,Frame 1222
+45453.84907722473,Video recorder,Frame 1223
+45453.84907722473,Video recorder,Frame 1224 (skipped)
+45493.00456047058,Video recorder,Frame 1225
+45521.31199836731,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+45554.0406703949,Video recorder,Frame 1226
+45601.16362571716,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+45603.11579704285,Video recorder,Frame 1227
+45603.11579704285,Video recorder,Frame 1228 (skipped)
+45656.71443939209,Video recorder,Frame 1229
+45656.71443939209,Video recorder,Frame 1230 (skipped)
+45657.17911720276,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+45706.77876472473,Video recorder,Frame 1231
+45745.46718597412,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+45756.87479972839,Video recorder,Frame 1232
+45756.87479972839,Video recorder,Frame 1233 (skipped)
+45785.64476966858,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+45806.99872970581,Video recorder,Frame 1234
+45856.57072067261,Video recorder,Frame 1235
+45856.57072067261,Video recorder,Frame 1236 (skipped)
+45857.563495635986,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+45908.18500518799,Video recorder,Frame 1237
+45955.3017616272,Video recorder,Frame 1238
+45955.3017616272,Video recorder,Frame 1239 (skipped)
+46006.85620307922,Video recorder,Frame 1240
+46055.493116378784,Video recorder,Frame 1241
+46055.493116378784,Video recorder,Frame 1242 (skipped)
+46107.57231712341,Video recorder,Frame 1243
+46154.69431877136,Video recorder,Frame 1244
+46154.69431877136,Video recorder,Frame 1245 (skipped)
+46205.77955245972,Video recorder,Frame 1246
+46254.39143180847,Video recorder,Frame 1247
+46254.39143180847,Video recorder,Frame 1248 (skipped)
+46293.54190826416,Video recorder,Frame 1249
+46353.5578250885,Video recorder,Frame 1250
+46404.67429161072,Video recorder,Frame 1251
+46404.67429161072,Video recorder,Frame 1252 (skipped)
+46454.7700881958,Video recorder,Frame 1253
+46454.7700881958,Video recorder,Frame 1254 (skipped)
+46498.38852882385,Video recorder,Frame 1255
+46557.41238594055,Video recorder,Frame 1256
+46557.41238594055,Video recorder,Frame 1257 (skipped)
+46610.01658439636,Video recorder,Frame 1258
+46657.13691711426,Video recorder,Frame 1259
+46657.13691711426,Video recorder,Frame 1260 (skipped)
+46707.728147506714,Video recorder,Frame 1261
+46754.85014915466,Video recorder,Frame 1262
+46754.85014915466,Video recorder,Frame 1263 (skipped)
+46806.92768096924,Video recorder,Frame 1264
+46855.00979423523,Video recorder,Frame 1265
+46855.00979423523,Video recorder,Frame 1266 (skipped)
+46894.19484138489,Video recorder,Frame 1267
+46953.21726799011,Video recorder,Frame 1268
+47003.8423538208,Video recorder,Frame 1269
+47003.8423538208,Video recorder,Frame 1270 (skipped)
+47044.976472854614,Video recorder,Frame 1271
+47103.00827026367,Video recorder,Frame 1272
+47103.00827026367,Video recorder,Frame 1273 (skipped)
+47157.596588134766,Video recorder,Frame 1274
+47157.596588134766,Video recorder,Frame 1275 (skipped)
+47208.19091796875,Video recorder,Frame 1276
+47256.27112388611,Video recorder,Frame 1277
+47256.27112388611,Video recorder,Frame 1278 (skipped)
+47307.35898017883,Video recorder,Frame 1279
+47355.005741119385,Video recorder,Frame 1280
+47355.005741119385,Video recorder,Frame 1281 (skipped)
+47406.09097480774,Video recorder,Frame 1282
+47454.20265197754,Video recorder,Frame 1283
+47454.20265197754,Video recorder,Frame 1284 (skipped)
+47509.25803184509,Video recorder,Frame 1285
+47556.225538253784,Video recorder,Frame 1286
+47556.225538253784,Video recorder,Frame 1287 (skipped)
+47609.29775238037,Video recorder,Frame 1288
+47656.9128036499,Video recorder,Frame 1289
+47656.9128036499,Video recorder,Frame 1290 (skipped)
+47708.99224281311,Video recorder,Frame 1291
+47756.11209869385,Video recorder,Frame 1292
+47756.11209869385,Video recorder,Frame 1293 (skipped)
+47807.695627212524,Video recorder,Frame 1294
+47855.311155319214,Video recorder,Frame 1295
+47855.311155319214,Video recorder,Frame 1296 (skipped)
+47907.88698196411,Video recorder,Frame 1297
+47954.51068878174,Video recorder,Frame 1298
+47954.51068878174,Video recorder,Frame 1299 (skipped)
+48008.57424736023,Video recorder,Frame 1300
+48056.19025230408,Video recorder,Frame 1301
+48056.19025230408,Video recorder,Frame 1302 (skipped)
+48107.277393341064,Video recorder,Frame 1303
+48121.16527557373,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+48157.373666763306,Video recorder,Frame 1304
+48157.373666763306,Video recorder,Frame 1305 (skipped)
+48207.96513557434,Video recorder,Frame 1306
+48217.38862991333,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+48257.90190696716,Video recorder,Frame 1307
+48257.90190696716,Video recorder,Frame 1308 (skipped)
+48265.34199714661,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+48305.519580841064,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+48310.97435951233,Video recorder,Frame 1309
+48337.26453781128,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+48353.13367843628,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+48362.06126213074,Video recorder,Frame 1310
+48362.06126213074,Video recorder,Frame 1311 (skipped)
+48377.43949890137,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+48409.18040275574,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+48412.156105041504,Video recorder,Frame 1312
+48440.92392921448,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+48470.1874256134,Video recorder,Frame 1313
+48470.1874256134,Video recorder,Frame 1314 (skipped)
+48525.24518966675,Video recorder,Frame 1315
+48525.24518966675,Video recorder,Frame 1316 (skipped)
+48574.84555244446,Video recorder,Frame 1317
+48623.45051765442,Video recorder,Frame 1318
+48623.45051765442,Video recorder,Frame 1319 (skipped)
+48675.037145614624,Video recorder,Frame 1320
+48723.14763069153,Video recorder,Frame 1321
+48723.14763069153,Video recorder,Frame 1322 (skipped)
+48753.40509414673,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+48769.27661895752,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+48777.21166610718,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+48777.706146240234,Video recorder,Frame 1323
+48793.08366775513,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+48801.048278808594,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+48817.38758087158,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+48825.321674346924,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+48829.784631729126,Video recorder,Frame 1324
+48829.784631729126,Video recorder,Frame 1325 (skipped)
+48849.14588928223,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+48865.00263214111,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+48878.89003753662,Video recorder,Frame 1326
+48936.9215965271,Video recorder,Frame 1327
+48936.9215965271,Video recorder,Frame 1328 (skipped)
+48992.96975135803,Video recorder,Frame 1329
+48992.96975135803,Video recorder,Frame 1330 (skipped)
+49043.56074333191,Video recorder,Frame 1331
+49092.663526535034,Video recorder,Frame 1332
+49092.663526535034,Video recorder,Frame 1333 (skipped)
+49144.24657821655,Video recorder,Frame 1334
+49191.367626190186,Video recorder,Frame 1335
+49191.367626190186,Video recorder,Frame 1336 (skipped)
+49239.975452423096,Video recorder,Frame 1337
+49290.56739807129,Video recorder,Frame 1338
+49290.56739807129,Video recorder,Frame 1339 (skipped)
+49341.655015945435,Video recorder,Frame 1340
+49390.26236534119,Video recorder,Frame 1341
+49390.26236534119,Video recorder,Frame 1342 (skipped)
+49430.93252182007,Video recorder,Frame 1343
+49489.95804786682,Video recorder,Frame 1344
+49539.557456970215,Video recorder,Frame 1345
+49539.557456970215,Video recorder,Frame 1346 (skipped)
+49583.20426940918,Video recorder,Frame 1347
+49639.28008079529,Video recorder,Frame 1348
+49639.28008079529,Video recorder,Frame 1349 (skipped)
+49692.82054901123,Video recorder,Frame 1350
+49692.82054901123,Video recorder,Frame 1351 (skipped)
+49743.41106414795,Video recorder,Frame 1352
+49791.027784347534,Video recorder,Frame 1353
+49791.027784347534,Video recorder,Frame 1354 (skipped)
+49844.099044799805,Video recorder,Frame 1355
+49891.218185424805,Video recorder,Frame 1356
+49891.218185424805,Video recorder,Frame 1357 (skipped)
+49945.28293609619,Video recorder,Frame 1358
+49991.90616607666,Video recorder,Frame 1359
+49991.90616607666,Video recorder,Frame 1360 (skipped)
+50041.50605201721,Video recorder,Frame 1361
+50091.10474586487,Video recorder,Frame 1362
+50091.10474586487,Video recorder,Frame 1363 (skipped)
+50142.67992973328,Video recorder,Frame 1364
+50190.295934677124,Video recorder,Frame 1365
+50190.295934677124,Video recorder,Frame 1366 (skipped)
+50229.47955131531,Video recorder,Frame 1367
+50289.49475288391,Video recorder,Frame 1368
+50339.590549468994,Video recorder,Frame 1369
+50339.590549468994,Video recorder,Frame 1370 (skipped)
+50394.64735984802,Video recorder,Frame 1371
+50394.64735984802,Video recorder,Frame 1372 (skipped)
+50442.758560180664,Video recorder,Frame 1373
+50493.37840080261,Video recorder,Frame 1374
+50493.37840080261,Video recorder,Frame 1375 (skipped)
+50544.93284225464,Video recorder,Frame 1376
+50591.5584564209,Video recorder,Frame 1377
+50591.5584564209,Video recorder,Frame 1378 (skipped)
+50643.14007759094,Video recorder,Frame 1379
+50691.253662109375,Video recorder,Frame 1380
+50691.253662109375,Video recorder,Frame 1381 (skipped)
+50742.83576011658,Video recorder,Frame 1382
+50790.45128822327,Video recorder,Frame 1383
+50790.45128822327,Video recorder,Frame 1384 (skipped)
+50842.53120422363,Video recorder,Frame 1385
+50891.138315200806,Video recorder,Frame 1386
+50891.138315200806,Video recorder,Frame 1387 (skipped)
+50943.21799278259,Video recorder,Frame 1388
+50990.83375930786,Video recorder,Frame 1389
+50990.83375930786,Video recorder,Frame 1390 (skipped)
+51044.89731788635,Video recorder,Frame 1391
+51092.01693534851,Video recorder,Frame 1392
+51092.01693534851,Video recorder,Frame 1393 (skipped)
+51143.104553222656,Video recorder,Frame 1394
+51191.21694564819,Video recorder,Frame 1395
+51191.21694564819,Video recorder,Frame 1396 (skipped)
+51239.82381820679,Video recorder,Frame 1397
+51289.42346572876,Video recorder,Frame 1398
+51289.42346572876,Video recorder,Frame 1399 (skipped)
+51344.975233078,Video recorder,Frame 1400
+51392.09485054016,Video recorder,Frame 1401
+51440.20628929138,Video recorder,Frame 1402
+51440.20628929138,Video recorder,Frame 1403 (skipped)
+51481.87160491943,Video recorder,Frame 1404
+51542.38152503967,Video recorder,Frame 1405
+51542.38152503967,Video recorder,Frame 1406 (skipped)
+51593.469858169556,Video recorder,Frame 1407
+51593.469858169556,Video recorder,Frame 1408 (skipped)
+51642.07696914673,Video recorder,Frame 1409
+51692.15488433838,Video recorder,Frame 1410
+51692.15488433838,Video recorder,Frame 1411 (skipped)
+51731.33683204651,Video recorder,Frame 1412
+51791.84985160828,Video recorder,Frame 1413
+51841.94350242615,Video recorder,Frame 1414
+51841.94350242615,Video recorder,Frame 1415 (skipped)
+51882.11965560913,Video recorder,Frame 1416
+51940.15121459961,Video recorder,Frame 1417
+51940.15121459961,Video recorder,Frame 1418 (skipped)
+51995.206356048584,Video recorder,Frame 1419
+51995.206356048584,Video recorder,Frame 1420 (skipped)
+52042.755365371704,Video recorder,Frame 1421
+52092.84949302673,Video recorder,Frame 1422
+52092.84949302673,Video recorder,Frame 1423 (skipped)
+52144.43349838257,Video recorder,Frame 1424
+52192.04902648926,Video recorder,Frame 1425
+52192.04902648926,Video recorder,Frame 1426 (skipped)
+52243.63327026367,Video recorder,Frame 1427
+52291.743993759155,Video recorder,Frame 1428
+52291.743993759155,Video recorder,Frame 1429 (skipped)
+52345.807790756226,Video recorder,Frame 1430
+52392.7526473999,Video recorder,Frame 1431
+52392.7526473999,Video recorder,Frame 1432 (skipped)
+52431.44154548645,Video recorder,Frame 1433
+52492.94424057007,Video recorder,Frame 1434
+52532.12785720825,Video recorder,Frame 1435
+52532.12785720825,Video recorder,Frame 1436 (skipped)
+52569.32759284973,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+52594.15650367737,Video recorder,Frame 1437
+52642.23885536194,Video recorder,Frame 1438
+52642.23885536194,Video recorder,Frame 1439 (skipped)
+52682.41477012634,Video recorder,Frame 1440
+52741.93572998047,Video recorder,Frame 1441
+52741.93572998047,Video recorder,Frame 1442 (skipped)
+52796.49353027344,Video recorder,Frame 1443
+52796.49353027344,Video recorder,Frame 1444 (skipped)
+52843.613386154175,Video recorder,Frame 1445
+52895.69306373596,Video recorder,Frame 1446
+52895.69306373596,Video recorder,Frame 1447 (skipped)
+52947.27683067322,Video recorder,Frame 1448
+52994.89235877991,Video recorder,Frame 1449
+52994.89235877991,Video recorder,Frame 1450 (skipped)
+53046.4768409729,Video recorder,Frame 1451
+53095.635414123535,Video recorder,Frame 1452
+53095.635414123535,Video recorder,Frame 1453 (skipped)
+53149.69897270203,Video recorder,Frame 1454
+53198.30656051636,Video recorder,Frame 1455
+53198.30656051636,Video recorder,Frame 1456 (skipped)
+53246.91557884216,Video recorder,Frame 1457
+53298.497676849365,Video recorder,Frame 1458
+53298.497676849365,Video recorder,Frame 1459 (skipped)
+53348.098278045654,Video recorder,Frame 1460
+53396.20923995972,Video recorder,Frame 1461
+53396.20923995972,Video recorder,Frame 1462 (skipped)
+53446.49243354797,Video recorder,Frame 1463
+53494.10915374756,Video recorder,Frame 1464
+53494.10915374756,Video recorder,Frame 1465 (skipped)
+53533.291816711426,Video recorder,Frame 1466
+53593.30701828003,Video recorder,Frame 1467
+53593.30701828003,Video recorder,Frame 1468 (skipped)
+53643.90015602112,Video recorder,Frame 1469
+53693.99642944336,Video recorder,Frame 1470
+53693.99642944336,Video recorder,Frame 1471 (skipped)
+53745.08213996887,Video recorder,Frame 1472
+53792.726039886475,Video recorder,Frame 1473
+53792.726039886475,Video recorder,Frame 1474 (skipped)
+53846.78936004639,Video recorder,Frame 1475
+53895.39885520935,Video recorder,Frame 1476
+53895.39885520935,Video recorder,Frame 1477 (skipped)
+53946.45810127258,Video recorder,Frame 1478
+53994.07196044922,Video recorder,Frame 1479
+53994.07196044922,Video recorder,Frame 1480 (skipped)
+54042.6812171936,Video recorder,Frame 1481
+54093.270778656006,Video recorder,Frame 1482
+54093.270778656006,Video recorder,Frame 1483 (skipped)
+54147.830963134766,Video recorder,Frame 1484
+54194.979190826416,Video recorder,Frame 1485
+54194.979190826416,Video recorder,Frame 1486 (skipped)
+54246.535301208496,Video recorder,Frame 1487
+54299.10969734192,Video recorder,Frame 1488
+54299.10969734192,Video recorder,Frame 1489 (skipped)
+54348.21319580078,Video recorder,Frame 1490
+54397.31764793396,Video recorder,Frame 1491
+54397.31764793396,Video recorder,Frame 1492 (skipped)
+54444.934129714966,Video recorder,Frame 1493
+54495.524406433105,Video recorder,Frame 1494
+54495.524406433105,Video recorder,Frame 1495 (skipped)
+54546.61250114441,Video recorder,Frame 1496
+54594.228982925415,Video recorder,Frame 1497
+54594.228982925415,Video recorder,Frame 1498 (skipped)
+54645.83992958069,Video recorder,Frame 1499
+54693.455934524536,Video recorder,Frame 1500
+54693.455934524536,Video recorder,Frame 1501 (skipped)
+54746.52695655823,Video recorder,Frame 1502
+54794.11602020264,Video recorder,Frame 1503
+54794.11602020264,Video recorder,Frame 1504 (skipped)
+54833.7938785553,Video recorder,Frame 1505
+54882.89952278137,Video recorder,Frame 1506
+54944.40245628357,Video recorder,Frame 1507
+54944.40245628357,Video recorder,Frame 1508 (skipped)
+54998.465061187744,Video recorder,Frame 1509
+54998.465061187744,Video recorder,Frame 1510 (skipped)
+55048.56181144714,Video recorder,Frame 1511
+55095.67975997925,Video recorder,Frame 1512
+55095.67975997925,Video recorder,Frame 1513 (skipped)
+55146.76904678345,Video recorder,Frame 1514
+55194.385290145874,Video recorder,Frame 1515
+55194.385290145874,Video recorder,Frame 1516 (skipped)
+55243.4868812561,Video recorder,Frame 1517
+55294.07835006714,Video recorder,Frame 1518
+55294.07835006714,Video recorder,Frame 1519 (skipped)
+55333.75811576843,Video recorder,Frame 1520
+55393.8045501709,Video recorder,Frame 1521
+55393.8045501709,Video recorder,Frame 1522 (skipped)
+55448.33517074585,Video recorder,Frame 1523
+55495.45478820801,Video recorder,Frame 1524
+55495.45478820801,Video recorder,Frame 1525 (skipped)
+55547.03688621521,Video recorder,Frame 1526
+55594.653844833374,Video recorder,Frame 1527
+55594.653844833374,Video recorder,Frame 1528 (skipped)
+55646.239042282104,Video recorder,Frame 1529
+55696.33150100708,Video recorder,Frame 1530
+55696.33150100708,Video recorder,Frame 1531 (skipped)
+55747.91717529297,Video recorder,Frame 1532
+55796.027421951294,Video recorder,Frame 1533
+55796.027421951294,Video recorder,Frame 1534 (skipped)
+55847.61118888855,Video recorder,Frame 1535
+55895.227670669556,Video recorder,Frame 1536
+55895.227670669556,Video recorder,Frame 1537 (skipped)
+55947.80349731445,Video recorder,Frame 1538
+55995.91398239136,Video recorder,Frame 1539
+55995.91398239136,Video recorder,Frame 1540 (skipped)
+56043.52879524231,Video recorder,Frame 1541
+56094.64502334595,Video recorder,Frame 1542
+56094.64502334595,Video recorder,Frame 1543 (skipped)
+56148.18477630615,Video recorder,Frame 1544
+56195.8281993866,Video recorder,Frame 1545
+56195.8281993866,Video recorder,Frame 1546 (skipped)
+56234.983682632446,Video recorder,Frame 1547
+56294.5339679718,Video recorder,Frame 1548
+56294.5339679718,Video recorder,Frame 1549 (skipped)
+56336.16828918457,Video recorder,Frame 1550
+56393.70369911194,Video recorder,Frame 1551
+56393.70369911194,Video recorder,Frame 1552 (skipped)
+56447.79706001282,Video recorder,Frame 1553
+56495.38278579712,Video recorder,Frame 1554
+56495.38278579712,Video recorder,Frame 1555 (skipped)
+56549.44634437561,Video recorder,Frame 1556
+56596.564531326294,Video recorder,Frame 1557
+56596.564531326294,Video recorder,Frame 1558 (skipped)
+56647.15671539307,Video recorder,Frame 1559
+56695.7643032074,Video recorder,Frame 1560
+56695.7643032074,Video recorder,Frame 1561 (skipped)
+56749.33171272278,Video recorder,Frame 1562
+56796.45299911499,Video recorder,Frame 1563
+56796.45299911499,Video recorder,Frame 1564 (skipped)
+56844.563007354736,Video recorder,Frame 1565
+56895.18356323242,Video recorder,Frame 1566
+56895.18356323242,Video recorder,Frame 1567 (skipped)
+56948.723793029785,Video recorder,Frame 1568
+56996.337890625,Video recorder,Frame 1569
+56996.337890625,Video recorder,Frame 1570 (skipped)
+57048.44880104065,Video recorder,Frame 1571
+57096.53067588806,Video recorder,Frame 1572
+57096.53067588806,Video recorder,Frame 1573 (skipped)
+57147.61710166931,Video recorder,Frame 1574
+57195.72854042053,Video recorder,Frame 1575
+57195.72854042053,Video recorder,Frame 1576 (skipped)
+57249.29714202881,Video recorder,Frame 1577
+57297.40905761719,Video recorder,Frame 1578
+57297.40905761719,Video recorder,Frame 1579 (skipped)
+57347.999572753906,Video recorder,Frame 1580
+57396.11053466797,Video recorder,Frame 1581
+57396.11053466797,Video recorder,Frame 1582 (skipped)
+57452.15940475464,Video recorder,Frame 1583
+57498.78191947937,Video recorder,Frame 1584
+57498.78191947937,Video recorder,Frame 1585 (skipped)
+57549.869775772095,Video recorder,Frame 1586
+57597.981214523315,Video recorder,Frame 1587
+57597.981214523315,Video recorder,Frame 1588 (skipped)
+57646.589279174805,Video recorder,Frame 1589
+57697.18098640442,Video recorder,Frame 1590
+57697.18098640442,Video recorder,Frame 1591 (skipped)
+57736.860513687134,Video recorder,Frame 1592
+57796.876430511475,Video recorder,Frame 1593
+57796.876430511475,Video recorder,Frame 1594 (skipped)
+57848.49047660828,Video recorder,Frame 1595
+57896.106004714966,Video recorder,Frame 1596
+57896.106004714966,Video recorder,Frame 1597 (skipped)
+57949.644327163696,Video recorder,Frame 1598
+57997.259855270386,Video recorder,Frame 1599
+57997.259855270386,Video recorder,Frame 1600 (skipped)
+58045.371532440186,Video recorder,Frame 1601
+58096.45915031433,Video recorder,Frame 1602
+58096.45915031433,Video recorder,Frame 1603 (skipped)
+58151.514291763306,Video recorder,Frame 1604
+58198.63247871399,Video recorder,Frame 1605
+58198.63247871399,Video recorder,Frame 1606 (skipped)
+58250.24509429932,Video recorder,Frame 1607
+58297.860860824585,Video recorder,Frame 1608
+58297.860860824585,Video recorder,Frame 1609 (skipped)
+58337.512731552124,Video recorder,Frame 1610
+58397.06015586853,Video recorder,Frame 1611
+58397.06015586853,Video recorder,Frame 1612 (skipped)
+58445.66822052002,Video recorder,Frame 1613
+58496.30904197693,Video recorder,Frame 1614
+58505.207777023315,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:120
+58496.30904197693,Video recorder,Frame 1615 (skipped)
+58550.867795944214,Video recorder,Frame 1616
+58598.98018836975,Video recorder,Frame 1617
+58598.98018836975,Video recorder,Frame 1618 (skipped)
+58650.04014968872,Video recorder,Frame 1619
+58698.14968109131,Video recorder,Frame 1620
+58698.14968109131,Video recorder,Frame 1621 (skipped)
+58749.26853179932,Video recorder,Frame 1622
+58797.37830162048,Video recorder,Frame 1623
+58797.37830162048,Video recorder,Frame 1624 (skipped)
+58846.97723388672,Video recorder,Frame 1625
+58897.07350730896,Video recorder,Frame 1626
+58897.07350730896,Video recorder,Frame 1627 (skipped)
+58948.65655899048,Video recorder,Frame 1628
+58997.26438522339,Video recorder,Frame 1629
+58997.26438522339,Video recorder,Frame 1630 (skipped)
+59049.84211921692,Video recorder,Frame 1631
+59099.151611328125,Video recorder,Frame 1632
+59099.151611328125,Video recorder,Frame 1633 (skipped)
+59152.71973609924,Video recorder,Frame 1634
+59203.31120491028,Video recorder,Frame 1635
+59203.31120491028,Video recorder,Frame 1636 (skipped)
+59252.41494178772,Video recorder,Frame 1637
+59252.41494178772,Video recorder,Frame 1638 (skipped)
+59315.90223312378,Video recorder,Frame 1639
+59364.33243751526,Video recorder,Frame 1640
+59364.33243751526,Video recorder,Frame 1641 (skipped)
+59418.39408874512,Video recorder,Frame 1642
+59465.513706207275,Video recorder,Frame 1643
+59465.513706207275,Video recorder,Frame 1644 (skipped)
+59516.60251617432,Video recorder,Frame 1645
+59564.71490859985,Video recorder,Frame 1646
+59564.71490859985,Video recorder,Frame 1647 (skipped)
+59618.28112602234,Video recorder,Frame 1648
+59665.89665412903,Video recorder,Frame 1649
+59665.89665412903,Video recorder,Frame 1650 (skipped)
+59717.48185157776,Video recorder,Frame 1651
+59765.095710754395,Video recorder,Frame 1652
+59765.095710754395,Video recorder,Frame 1653 (skipped)
+59817.1763420105,Video recorder,Frame 1654
+59864.79306221008,Video recorder,Frame 1655
+59864.79306221008,Video recorder,Frame 1656 (skipped)
+59917.86479949951,Video recorder,Frame 1657
+59970.438957214355,Video recorder,Frame 1658
+59970.438957214355,Video recorder,Frame 1659 (skipped)
+60020.03788948059,Video recorder,Frame 1660
+60020.03788948059,Video recorder,Frame 1661 (skipped)
+60071.62356376648,Video recorder,Frame 1662
+60131.141662597656,Video recorder,Frame 1663
+60131.141662597656,Video recorder,Frame 1664 (skipped)
+60185.20641326904,Video recorder,Frame 1665
+60233.31618309021,Video recorder,Frame 1666
+60233.31618309021,Video recorder,Frame 1667 (skipped)
+60285.39776802063,Video recorder,Frame 1668
+60332.515716552734,Video recorder,Frame 1669
+60332.515716552734,Video recorder,Frame 1670 (skipped)
+60384.1290473938,Video recorder,Frame 1671
+60431.25009536743,Video recorder,Frame 1672
+60431.25009536743,Video recorder,Frame 1673 (skipped)
+60486.2744808197,Video recorder,Frame 1674
+60533.42342376709,Video recorder,Frame 1675
+60533.42342376709,Video recorder,Frame 1676 (skipped)
+60584.481954574585,Video recorder,Frame 1677
+60632.09891319275,Video recorder,Frame 1678
+60632.09891319275,Video recorder,Frame 1679 (skipped)
+60683.68101119995,Video recorder,Frame 1680
+60731.79388046265,Video recorder,Frame 1681
+60731.79388046265,Video recorder,Frame 1682 (skipped)
+60786.35239601135,Video recorder,Frame 1683
+60833.006143569946,Video recorder,Frame 1684
+60833.006143569946,Video recorder,Frame 1685 (skipped)
+60884.56106185913,Video recorder,Frame 1686
+60933.16698074341,Video recorder,Frame 1687
+60933.16698074341,Video recorder,Frame 1688 (skipped)
+60971.85516357422,Video recorder,Frame 1689
+60977.31351852417,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+61009.05752182007,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+61032.8643321991,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+61033.85663032532,Video recorder,Frame 1690
+61033.85663032532,Video recorder,Frame 1691 (skipped)
+61057.16943740845,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+61073.03857803345,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+61086.4315032959,Video recorder,Frame 1692
+61088.910818099976,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+61104.81071472168,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+61129.08625602722,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+61139.00661468506,Video recorder,Frame 1693
+61139.00661468506,Video recorder,Frame 1694 (skipped)
+61152.89568901062,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+61188.63391876221,Video recorder,Frame 1695
+61188.63391876221,Video recorder,Frame 1696 (skipped)
+61251.10101699829,Video recorder,Frame 1697
+61299.214124679565,Video recorder,Frame 1698
+61299.214124679565,Video recorder,Frame 1699 (skipped)
+61352.285385131836,Video recorder,Frame 1700
+61400.42734146118,Video recorder,Frame 1701
+61400.42734146118,Video recorder,Frame 1702 (skipped)
+61440.075635910034,Video recorder,Frame 1703
+61490.17119407654,Video recorder,Frame 1704
+61539.30640220642,Video recorder,Frame 1705
+61539.30640220642,Video recorder,Frame 1706 (skipped)
+61589.3988609314,Video recorder,Frame 1707
+61589.3988609314,Video recorder,Frame 1708 (skipped)
+61637.97950744629,Video recorder,Frame 1709
+61688.07554244995,Video recorder,Frame 1710
+61688.07554244995,Video recorder,Frame 1711 (skipped)
+61739.163398742676,Video recorder,Frame 1712
+61789.75296020508,Video recorder,Frame 1713
+61789.75296020508,Video recorder,Frame 1714 (skipped)
+61839.84994888306,Video recorder,Frame 1715
+61889.44888114929,Video recorder,Frame 1716
+61889.44888114929,Video recorder,Frame 1717 (skipped)
+61939.04781341553,Video recorder,Frame 1718
+61986.663818359375,Video recorder,Frame 1719
+61986.663818359375,Video recorder,Frame 1720 (skipped)
+62036.72409057617,Video recorder,Frame 1721
+62087.286949157715,Video recorder,Frame 1722
+62087.286949157715,Video recorder,Frame 1723 (skipped)
+62137.87865638733,Video recorder,Frame 1724
+62184.99827384949,Video recorder,Frame 1725
+62184.99827384949,Video recorder,Frame 1726 (skipped)
+62236.08589172363,Video recorder,Frame 1727
+62284.19733047485,Video recorder,Frame 1728
+62284.19733047485,Video recorder,Frame 1729 (skipped)
+62336.27700805664,Video recorder,Frame 1730
+62383.89277458191,Video recorder,Frame 1731
+62383.89277458191,Video recorder,Frame 1732 (skipped)
+62432.99651145935,Video recorder,Frame 1733
+62482.595920562744,Video recorder,Frame 1734
+62532.69171714783,Video recorder,Frame 1735
+62532.69171714783,Video recorder,Frame 1736 (skipped)
+62587.74709701538,Video recorder,Frame 1737
+62634.53769683838,Video recorder,Frame 1738
+62634.53769683838,Video recorder,Frame 1739 (skipped)
+62686.1207485199,Video recorder,Frame 1740
+62734.2324256897,Video recorder,Frame 1741
+62734.2324256897,Video recorder,Frame 1742 (skipped)
+62785.32028198242,Video recorder,Frame 1743
+62833.43267440796,Video recorder,Frame 1744
+62833.43267440796,Video recorder,Frame 1745 (skipped)
+62887.99166679382,Video recorder,Frame 1746
+62935.68444252014,Video recorder,Frame 1747
+62935.68444252014,Video recorder,Frame 1748 (skipped)
+62986.2744808197,Video recorder,Frame 1749
+63035.873889923096,Video recorder,Frame 1750
+63035.873889923096,Video recorder,Frame 1751 (skipped)
+63086.963176727295,Video recorder,Frame 1752
+63134.57751274109,Video recorder,Frame 1753
+63134.57751274109,Video recorder,Frame 1754 (skipped)
+63186.34366989136,Video recorder,Frame 1755
+63233.95752906799,Video recorder,Frame 1756
+63233.95752906799,Video recorder,Frame 1757 (skipped)
+63288.51890563965,Video recorder,Frame 1758
+63336.161851882935,Video recorder,Frame 1759
+63336.161851882935,Video recorder,Frame 1760 (skipped)
+63387.7170085907,Video recorder,Frame 1761
+63387.7170085907,Video recorder,Frame 1762 (skipped)
+63438.33804130554,Video recorder,Frame 1763
+63485.92519760132,Video recorder,Frame 1764
+63485.92519760132,Video recorder,Frame 1765 (skipped)
+63537.01329231262,Video recorder,Frame 1766
+63584.62691307068,Video recorder,Frame 1767
+63584.62691307068,Video recorder,Frame 1768 (skipped)
+63623.8112449646,Video recorder,Frame 1769
+63672.91474342346,Video recorder,Frame 1770
+63723.03867340088,Video recorder,Frame 1771
+63723.03867340088,Video recorder,Frame 1772 (skipped)
+63773.10633659363,Video recorder,Frame 1773
+63822.20983505249,Video recorder,Frame 1774
+63822.20983505249,Video recorder,Frame 1775 (skipped)
+63872.801303863525,Video recorder,Frame 1776
+63923.39253425598,Video recorder,Frame 1777
+63969.52033042908,Video recorder,Frame 1778
+63969.52033042908,Video recorder,Frame 1779 (skipped)
+64020.803451538086,Video recorder,Frame 1780
+64020.803451538086,Video recorder,Frame 1781 (skipped)
+64073.38070869446,Video recorder,Frame 1782
+64120.99480628967,Video recorder,Frame 1783
+64120.99480628967,Video recorder,Frame 1784 (skipped)
+64179.52227592468,Video recorder,Frame 1785
+64232.59377479553,Video recorder,Frame 1786
+64232.59377479553,Video recorder,Frame 1787 (skipped)
+64288.64145278931,Video recorder,Frame 1788
+64338.73772621155,Video recorder,Frame 1789
+64338.73772621155,Video recorder,Frame 1790 (skipped)
+64391.313314437866,Video recorder,Frame 1791
+64391.313314437866,Video recorder,Frame 1792 (skipped)
+64417.104959487915,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+64440.9122467041,Video recorder,Frame 1793
+64440.9122467041,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+64457.28087425232,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+64473.15287590027,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+64496.960163116455,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+64503.904581069946,Video recorder,Frame 1794
+64503.904581069946,Video recorder,Frame 1795 (skipped)
+64512.83264160156,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+64545.071601867676,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+64557.47151374817,Video recorder,Frame 1796
+64557.47151374817,Video recorder,Frame 1797 (skipped)
+64560.94312667847,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+64585.2484703064,Mouse,X:1582; Y:384; MouseEvent:WM_MOUSEWHEEL; ScrollDelta:-120
+64607.56707191467,Video recorder,Frame 1798
+64666.09454154968,Video recorder,Frame 1799
+64666.09454154968,Video recorder,Frame 1800 (skipped)
+64738.014221191406,Video recorder,Frame 1801
+64738.014221191406,Video recorder,Frame 1802 (skipped)
+64789.10183906555,Video recorder,Frame 1803
+64789.10183906555,Video recorder,Frame 1804 (skipped)
+64837.21399307251,Video recorder,Frame 1805
+64887.80689239502,Video recorder,Frame 1806
+64937.43395805359,Video recorder,Frame 1807
+64937.43395805359,Video recorder,Frame 1808 (skipped)
+64991.46842956543,Video recorder,Frame 1809
+64991.46842956543,Video recorder,Frame 1810 (skipped)
+65042.060136795044,Video recorder,Frame 1811
+65090.667486190796,Video recorder,Frame 1812
+65090.667486190796,Video recorder,Frame 1813 (skipped)
+65145.72334289551,Video recorder,Frame 1814
+65204.74648475647,Video recorder,Frame 1815
+65204.74648475647,Video recorder,Frame 1816 (skipped)
+65254.84228134155,Video recorder,Frame 1817
+65254.84228134155,Video recorder,Frame 1818 (skipped)
+65309.678077697754,Video recorder,Frame 1819
+65358.28399658203,Video recorder,Frame 1820
+65358.28399658203,Video recorder,Frame 1821 (skipped)
+65409.374475479126,Video recorder,Frame 1822
+65458.97150039673,Video recorder,Frame 1823
+65458.97150039673,Video recorder,Frame 1824 (skipped)
+65508.57377052307,Video recorder,Frame 1825
+65556.21647834778,Video recorder,Frame 1826
+65556.21647834778,Video recorder,Frame 1827 (skipped)
+65606.28414154053,Video recorder,Frame 1828
+65654.44660186768,Video recorder,Frame 1829
+65654.44660186768,Video recorder,Frame 1830 (skipped)
+65705.53421974182,Video recorder,Frame 1831
+65753.14998626709,Video recorder,Frame 1832
+65753.14998626709,Video recorder,Frame 1833 (skipped)
+65805.22990226746,Video recorder,Frame 1834
+65853.34253311157,Video recorder,Frame 1835
+65853.34253311157,Video recorder,Frame 1836 (skipped)
+65893.06402206421,Video recorder,Frame 1837
+65952.04448699951,Video recorder,Frame 1838
+66002.14052200317,Video recorder,Frame 1839
+66002.14052200317,Video recorder,Frame 1840 (skipped)
+66045.2926158905,Video recorder,Frame 1841
+66102.82754898071,Video recorder,Frame 1842
+66102.82754898071,Video recorder,Frame 1843 (skipped)
+66154.90770339966,Video recorder,Frame 1844
+66154.90770339966,Video recorder,Frame 1845 (skipped)
+66206.98690414429,Video recorder,Frame 1846
+66225.33869743347,Keyboard,Key: 's' (Released)
+66255.59425354004,Video recorder,Frame 1847
+66255.59425354004,Video recorder,Frame 1848 (skipped)
+66307.1780204773,Video recorder,Frame 1849
+66354.29763793945,Video recorder,Frame 1850
+66392.98582077026,Video recorder,Frame 1851
+66392.98582077026,Video recorder,Frame 1852 (skipped)
+66454.48899269104,Video recorder,Frame 1853
+66502.44903564453,Video recorder,Frame 1854
+66502.44903564453,Video recorder,Frame 1855 (skipped)
+66557.5487613678,Video recorder,Frame 1856
+66557.5487613678,Video recorder,Frame 1857 (skipped)
+66609.13252830505,Video recorder,Frame 1858
+66656.74829483032,Video recorder,Frame 1859
+66656.74829483032,Video recorder,Frame 1860 (skipped)
+66707.34000205994,Video recorder,Frame 1861
+66754.95624542236,Video recorder,Frame 1862
+66754.95624542236,Video recorder,Frame 1863 (skipped)
+66807.03544616699,Video recorder,Frame 1864
+66857.4652671814,Video recorder,Frame 1865
+66857.4652671814,Video recorder,Frame 1866 (skipped)
+66911.39030456543,Video recorder,Frame 1867
+66959.50126647949,Video recorder,Frame 1868
+66959.50126647949,Video recorder,Frame 1869 (skipped)
+67009.59610939026,Video recorder,Frame 1870
+67060.68348884583,Video recorder,Frame 1871
+67060.68348884583,Video recorder,Frame 1872 (skipped)
+67110.28337478638,Video recorder,Frame 1873
+67167.81949996948,Video recorder,Frame 1874
+67167.81949996948,Video recorder,Frame 1875 (skipped)
+67224.3869304657,Video recorder,Frame 1876
+67273.46801757812,Video recorder,Frame 1877
+67273.46801757812,Video recorder,Frame 1878 (skipped)
+67325.5455493927,Video recorder,Frame 1879
+67325.5455493927,Video recorder,Frame 1880 (skipped)
+67377.13098526001,Video recorder,Frame 1881
+67425.73690414429,Video recorder,Frame 1882
+67425.73690414429,Video recorder,Frame 1883 (skipped)
+67477.32067108154,Video recorder,Frame 1884
+67525.43234825134,Video recorder,Frame 1885
+67525.43234825134,Video recorder,Frame 1886 (skipped)
+67576.52044296265,Video recorder,Frame 1887
+67625.62370300293,Video recorder,Frame 1888
+67625.62370300293,Video recorder,Frame 1889 (skipped)
+67677.70385742188,Video recorder,Frame 1890
+67725.839138031,Video recorder,Frame 1891
+67725.839138031,Video recorder,Frame 1892 (skipped)
+67777.3985862732,Video recorder,Frame 1893
+67825.01435279846,Video recorder,Frame 1894
+67825.01435279846,Video recorder,Frame 1895 (skipped)
+67875.60558319092,Video recorder,Frame 1896
+67924.21317100525,Video recorder,Frame 1897
+67924.21317100525,Video recorder,Frame 1898 (skipped)
+67975.30102729797,Video recorder,Frame 1899
+68021.92449569702,Video recorder,Frame 1900
+68021.92449569702,Video recorder,Frame 1901 (skipped)
+68074.99623298645,Video recorder,Frame 1902
+68123.60429763794,Video recorder,Frame 1903
+68123.60429763794,Video recorder,Frame 1904 (skipped)
+68174.6916770935,Video recorder,Frame 1905
+68224.31969642639,Video recorder,Frame 1906
+68224.31969642639,Video recorder,Frame 1907 (skipped)
+68275.87652206421,Video recorder,Frame 1908
+68323.49014282227,Video recorder,Frame 1909
+68323.49014282227,Video recorder,Frame 1910 (skipped)
+68376.06596946716,Video recorder,Frame 1911
+68423.1858253479,Video recorder,Frame 1912
+68423.1858253479,Video recorder,Frame 1913 (skipped)
+68476.25708580017,Video recorder,Frame 1914
+68523.78845214844,Video recorder,Frame 1915
+68523.78845214844,Video recorder,Frame 1916 (skipped)
+68575.86574554443,Video recorder,Frame 1917
+68622.98727035522,Video recorder,Frame 1918
+68622.98727035522,Video recorder,Frame 1919 (skipped)
+68674.0734577179,Video recorder,Frame 1920
+68721.68779373169,Video recorder,Frame 1921
+68721.68779373169,Video recorder,Frame 1922 (skipped)
+68776.24750137329,Video recorder,Frame 1923
+68830.28221130371,Video recorder,Frame 1924
