@@ -1,9 +1,5 @@
 # Written by Nathanael Larigaldie
 
-library(tidyverse)
-library(png)
-library(eyeScrollR)
-
 get_sync_time <- function(file_name)
 {
   d <- read_tsv(file.path("Data", "EyeLink", file_name, "Reports", "Output", "messages.xls"), col_types = "ccccc")
@@ -55,41 +51,45 @@ infer_video_frames <- function(d, fps)
   return(d)
 }
 
-fps <- 30.0
-
-list_files <- list.files(path= file.path("Data", "EyeLink"),pattern = "*.csv$")
-for(file in list_files)
+data_merging_EyeLink <- function()
 {
-  file_name <- strsplit(file, ".", fixed=TRUE)[[1]][1]
-  sync_time <- get_sync_time(file_name)
-  d <- merge_datasets(file, sync_time, file_name)
-  d <- infer_video_frames(d, fps)
+  fps <- 30.0
   
-  start_time <- d %>% filter(Data == "SYNCTIME")
-  start_time <- start_time$Timestamp
-  end_time <- d %>% filter(Data == "Key: 's' (Released)")
-  end_time <- end_time$Timestamp
-
-  # write_csv(d, file.path("Results", paste0(file_name, "_merged", ".csv")), na="")
-
-  ## eyeScrollR specific code here
-  cal_img <- readPNG(file.path("Data", "EyeLink", paste0("calibration_", strsplit(file_name, "_", fixed=TRUE)[[1]][2], "_", strsplit(file_name, "_", fixed=TRUE)[[1]][3], ".png")))
-  cal <- scroll_calibration_auto(cal_img, 100)
-  full_page_image <- readPNG(file.path("Data", "EyeLink", file_name, "full_page_image.png"))
-  if(file.exists(file.path("Data", "EyeLink", paste0(file_name, ".RData"))))
+  list_files <- list.files(path= file.path("Data", "EyeLink"),pattern = "*.csv$")
+  for(file in list_files)
   {
-    load(file.path("Data", "EyeLink", paste0(file_name, ".RData")))
+    file_name <- strsplit(file, ".", fixed=TRUE)[[1]][1]
+    sync_time <- get_sync_time(file_name)
+    d <- merge_datasets(file, sync_time, file_name)
+    d <- infer_video_frames(d, fps)
+    
+    start_time <- d %>% filter(Data == "SYNCTIME")
+    start_time <- start_time$Timestamp
+    end_time <- d %>% filter(Data == "Key: 's' (Released)")
+    end_time <- end_time$Timestamp
+    
+    # write_csv(d, file.path("Results", paste0(file_name, "_merged", ".csv")), na="")
+    
+    ## eyeScrollR specific code here
+    cal_img <- readPNG(file.path("Data", "EyeLink", paste0("calibration_", strsplit(file_name, "_", fixed=TRUE)[[1]][2], "_", strsplit(file_name, "_", fixed=TRUE)[[1]][3], ".png")))
+    cal <- scroll_calibration_auto(cal_img, 100)
+    full_page_image <- readPNG(file.path("Data", "EyeLink", file_name, "full_page_image.png"))
+    if(file.exists(file.path("Data", "EyeLink", paste0(file_name, ".RData"))))
+    {
+      load(file.path("Data", "EyeLink", paste0(file_name, ".RData")))
+    }
+    else
+    {
+      fixed_areas = list()
+      rules = list()
+    }
+    img_wdth <- dim(full_page_image)[2]
+    img_hgth <- dim(full_page_image)[1]
+    if(grepl("S3", file, fixed=TRUE))
+    {
+      img_hgth <- img_hgth - 50
+    }
+    eye_scroll_correct(eyes_data = d, timestamp_start = start_time, timestamp_stop = end_time, image_width = img_wdth, image_height = img_hgth, calibration = cal, output_file = file.path("Results", paste0(file_name, ".csv")), scroll_lag = (1/120)*1000, fixed_areas = fixed_areas, rules = rules)
   }
-  else
-  {
-    fixed_areas = list()
-    rules = list()
-  }
-  img_wdth <- dim(full_page_image)[2]
-  img_hgth <- dim(full_page_image)[1]
-  if(grepl("S3", file, fixed=TRUE))
-  {
-    img_hgth <- img_hgth - 50
-  }
-  eye_scroll_correct(eyes_data = d, timestamp_start = start_time, timestamp_stop = end_time, image_width = img_wdth, image_height = img_hgth, calibration = cal, output_file = file.path("Results", paste0(file_name, ".csv")), scroll_lag = (1/120)*1000, fixed_areas = fixed_areas, rules = rules)
 }
+
