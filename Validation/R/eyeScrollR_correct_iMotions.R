@@ -33,6 +33,15 @@ eyeScrollR_correct_iMotions <- function()
     {
       img_hgth <- img_hgth - 50
     }
-    eye_scroll_correct(eyes_data = d, timestamp_start = d_start_stop$Timestamp[i], timestamp_stop = d_start_stop$Timestamp[i+1], image_width = img_wdth, image_height = img_hgth, calibration = cal, time_shift = t_shift$Timestamp[1], output_file = file.path("Results", paste0("S", i, "_1920_1080_iMotions", ".csv")), scroll_lag = (1/120)*1000)
+    if(file.exists(file.path("Data", "iMotions", paste0("S", i, "_1920_1080", ".RData"))))
+    {
+      load(file.path("Data", "iMotions", paste0("S", i, "_1920_1080", ".RData")))
+    }
+    else
+    {
+      fixed_areas = list()
+      rules = list()
+    }
+    eye_scroll_correct(eyes_data = d, timestamp_start = d_start_stop$Timestamp[i], timestamp_stop = d_start_stop$Timestamp[i+1], image_width = img_wdth, image_height = img_hgth, calibration = cal, time_shift = t_shift$Timestamp[1], output_file = file.path("Results", paste0("S", i, "_1920_1080_iMotions", ".csv")), scroll_lag = (1/120)*1000, fixed_areas = fixed_areas, rules = rules)
   }
 }

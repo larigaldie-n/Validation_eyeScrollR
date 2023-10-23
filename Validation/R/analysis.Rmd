@@ -19,15 +19,20 @@ for(file in list_files)
 {
   blinded <- read_csv(file.path("..", "Analysis", "Blinded", file))
   complete <- read_csv(file.path("..", "Analysis", "Complete", file))
+
   complete$X <- blinded$X
   complete$Y <- blinded$Y
-  complete$Euclidian.Distance <- sqrt((complete$X - complete$Fixation.X)**2
-                                      + (complete$Y - complete$Fixation.Y)**2)
+  if("Comment" %in% colnames(blinded))
+  {
+    complete <- complete %>% filter(is.na(blinded$Comment)) 
+  }
+  complete$Euclidian.Distance <- sqrt((complete$X - round(complete$Corrected.Fixation.X))**2
+                                      + (complete$Y - round(complete$Corrected.Fixation.Y))**2)
   complete$Website <- strsplit(file, "_", fixed=TRUE)[[1]][1]
-  complete <-complete %>% mutate(Website = ifelse(Website=="S1", "Test page 1",
-                                           ifelse(Website=="S2", "Test page 2",
-                                           ifelse(Website=="S3", "PsychoPy",
-                                                  "OSF"))))
+  complete <- complete %>% mutate(Website = ifelse(Website=="S1", "Test page 1",
+                                            ifelse(Website=="S2", "Test page 2",
+                                            ifelse(Website=="S3", "PsychoPy",
+                                                   "OSF"))))
   if(grepl("iMotions", file, fixed=TRUE))
   {
     complete$Setting <- "iMotions, 1920*1080"
@@ -49,11 +54,12 @@ for(file in list_files)
     d <- rbind(d, complete)
   }
 }
+write_csv(d, file.path("..", "Analysis", "Final", "final_dataset.csv"))
 ```
 
 ## Plots
 
-```{r pressure, echo=FALSE}
+```{r, echo=FALSE}
 d %>% ggplot( aes(x=Website, y=Euclidian.Distance, fill=Website)) +
     geom_violin(width=1) +
     geom_boxplot(width=0.2, color="darkgrey", alpha=0.8, size=1) +
