@@ -32,8 +32,8 @@ areas_bundle_1 <- fixed_areas_bundle(bundle_1_fixed_area_1_screen, bundle_1_fixe
 bundle_2_fixed_area_1_screen <- c(0, 71, 1919, 168)
 bundle_2_fixed_area_1_image <- c(0, 0, 1919, 97)
 # Fixed area 2
-bundle_2_fixed_area_2_screen <- c(0, 169, 1919, 923)
-bundle_2_fixed_area_2_image <- c(0, 194, 1919, 948)
+bundle_2_fixed_area_2_screen <- c(1632, 169, 1919, 923)
+bundle_2_fixed_area_2_image <- c(1632, 194, 1919, 948)
 # Fixed area 3
 bundle_2_fixed_area_3_screen <- c(1632, 924, 1919, 1039)
 bundle_2_fixed_area_3_image <- c(1632, 3520, 1919, 3635)

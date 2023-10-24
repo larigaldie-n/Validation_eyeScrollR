@@ -22,12 +22,14 @@ for(file in list_files)
 
   complete$X <- blinded$X
   complete$Y <- blinded$Y
+  complete$X.Error <- blinded$X.Error
+  complete$Y.Error <- blinded$Y.Error
   if("Comment" %in% colnames(blinded))
   {
     complete <- complete %>% filter(is.na(blinded$Comment)) 
   }
-  complete$Euclidian.Distance <- sqrt((complete$X - round(complete$Corrected.Fixation.X))**2
-                                      + (complete$Y - round(complete$Corrected.Fixation.Y))**2)
+  complete$Euclidian.Distance <- sqrt((complete$X - complete$Corrected.Fixation.X)**2
+                                      + (complete$Y - complete$Corrected.Fixation.Y)**2)
   complete$Website <- strsplit(file, "_", fixed=TRUE)[[1]][1]
   complete <- complete %>% mutate(Website = ifelse(Website=="S1", "Test page 1",
                                             ifelse(Website=="S2", "Test page 2",
@@ -60,6 +62,9 @@ write_csv(d, file.path("..", "Analysis", "Final", "final_dataset.csv"))
 ## Plots
 
 ```{r, echo=FALSE}
+d$all <- "all"
+d2 <- d
+d <- d %>% filter(Euclidian.Distance <=10)
 d %>% ggplot( aes(x=Website, y=Euclidian.Distance, fill=Website)) +
     geom_violin(width=1) +
     geom_boxplot(width=0.2, color="darkgrey", alpha=0.8, size=1) +
@@ -86,7 +91,6 @@ d %>% ggplot( aes(x=Setting, y=Euclidian.Distance, fill=Setting)) +
   xlab("Study setting") +
   ylab("Euclidian Distance")
 
-d$all <- "all"
 d %>% ggplot(aes(x=all, y=Euclidian.Distance, fill=all)) +
     geom_violin(width=1) +
     geom_boxplot(width=0.2, color="darkgrey", alpha=0.8, size=1) +
@@ -120,4 +124,21 @@ d %>%
             sd=sd(Euclidian.Distance),
             median=median(Euclidian.Distance)) %>%
   gt()
+cat("n errors: ", nrow(d2 %>% filter(Euclidian.Distance > 10)), "\n")
+cat("n data: ", nrow(d2), "\n")
+cat("% errors: ", (nrow(d2 %>% filter(Euclidian.Distance > 10)) / nrow(d2))*100, "\n")
+cat("n manual errors: ", nrow(d2 %>% filter(!is.na(X.Error), X.Error !="ND")), "\n")
+cat("n data: ", nrow(d2), "\n")
+cat("% manual errors: ", (nrow(d2 %>% filter(!is.na(X.Error), X.Error !="ND")) / nrow(d2))*100, "\n")
+
+cat("average manual error: ",
+    mean((d2 %>% filter(!is.na(X.Error), X.Error !="ND") %>%
+            mutate(Euclidian.Distance.Error =
+                     sqrt((as.numeric(X.Error) -
+                             Corrected.Fixation.X)**2 +
+                            (as.numeric(Y.Error) - Corrected.Fixation.Y)**2)
+                   ))$Euclidian.Distance.Error), "\n")
+cat("average eyeScrollR error: ",
+    mean((d2 %>% filter(Euclidian.Distance > 10))$Euclidian.Distance), "\n")
+
 ```

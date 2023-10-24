@@ -71,7 +71,16 @@ data_merging_EyeLink <- function()
     # write_csv(d, file.path("Results", paste0(file_name, "_merged", ".csv")), na="")
     
     ## eyeScrollR specific code here
-    cal_img <- readPNG(file.path("Data", "EyeLink", paste0("calibration_", strsplit(file_name, "_", fixed=TRUE)[[1]][2], "_", strsplit(file_name, "_", fixed=TRUE)[[1]][3], ".png")))
+    
+    # There was a very small modification on the browser layout in 2 study settings
+    if(grepl("S1_1680_1050", file_name, fixed=TRUE) | grepl("S1_1920_1200", file_name, fixed=TRUE))
+    {
+      cal_img <- readPNG(file.path("Data", "EyeLink", paste0("calibration_", strsplit(file_name, "_", fixed=TRUE)[[1]][2], "_", strsplit(file_name, "_", fixed=TRUE)[[1]][3], "_S1", ".png")))
+    }
+    else
+    {
+      cal_img <- readPNG(file.path("Data", "EyeLink", paste0("calibration_", strsplit(file_name, "_", fixed=TRUE)[[1]][2], "_", strsplit(file_name, "_", fixed=TRUE)[[1]][3], ".png")))
+    }
     cal <- scroll_calibration_auto(cal_img, 100)
     full_page_image <- readPNG(file.path("Data", "EyeLink", file_name, "full_page_image.png"))
     if(file.exists(file.path("Data", "EyeLink", paste0(file_name, ".RData"))))
