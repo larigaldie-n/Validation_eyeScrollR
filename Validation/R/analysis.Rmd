@@ -124,11 +124,11 @@ d %>%
             sd=sd(Euclidian.Distance),
             median=median(Euclidian.Distance)) %>%
   gt()
-cat("n errors: ", nrow(d2 %>% filter(Euclidian.Distance > 10)), "\n")
+
 cat("n data: ", nrow(d2), "\n")
+cat("n errors: ", nrow(d2 %>% filter(Euclidian.Distance > 10)), "\n")
 cat("% errors: ", (nrow(d2 %>% filter(Euclidian.Distance > 10)) / nrow(d2))*100, "\n")
 cat("n manual errors: ", nrow(d2 %>% filter(!is.na(X.Error), X.Error !="ND")), "\n")
-cat("n data: ", nrow(d2), "\n")
 cat("% manual errors: ", (nrow(d2 %>% filter(!is.na(X.Error), X.Error !="ND")) / nrow(d2))*100, "\n")
 
 cat("average manual error: ",
