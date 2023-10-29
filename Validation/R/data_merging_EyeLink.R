@@ -28,7 +28,7 @@ merge_datasets <- function(file, sync_time, file_name)
   return(display_data %>% full_join(eyes_data, by="Timestamp") %>% arrange(Timestamp))
 }
 
-infer_video_frames <- function(d, fps)
+infer_video_frames_EyeLink <- function(d, fps)
 {
   frame_number <- -1
   minutes <- 0
@@ -61,7 +61,7 @@ data_merging_EyeLink <- function()
     file_name <- strsplit(file, ".", fixed=TRUE)[[1]][1]
     sync_time <- get_sync_time(file_name)
     d <- merge_datasets(file, sync_time, file_name)
-    d <- infer_video_frames(d, fps)
+    d <- infer_video_frames_EyeLink(d, fps)
     
     start_time <- d %>% filter(Data == "SYNCTIME")
     start_time <- start_time$Timestamp
@@ -98,7 +98,7 @@ data_merging_EyeLink <- function()
     {
       img_hgth <- img_hgth - 50
     }
-    eye_scroll_correct(eyes_data = d, timestamp_start = start_time, timestamp_stop = end_time, image_width = img_wdth, image_height = img_hgth, calibration = cal, output_file = file.path("Results", paste0(file_name, ".csv")), scroll_lag = (1/120)*1000, fixed_areas = fixed_areas, rules = rules)
+    eye_scroll_correct(eyes_data = d, timestamp_start = start_time, timestamp_stop = end_time, image_width = img_wdth, image_height = img_hgth, calibration = cal, output_file = file.path("Results", paste0(file_name, ".csv")), scroll_lag = 1000/120, fixed_areas = fixed_areas, rules = rules)
   }
 }
 
